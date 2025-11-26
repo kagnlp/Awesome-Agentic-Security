@@ -82,6 +82,24 @@ A cross-cutting analysis of the literature reveals:
 
 ---
 
+## 🤝 Contribution
+This is an active research area. If you have a paper that fits into this taxonomy, please:
+
+Fork the repository.
+
+Add your paper to the relevant section in the list.
+
+Submit a Pull Request.
+
+--- 
+
+## 📞 Contact
+For inquiries regarding the survey, dataset updates, or collaboration, please contact:
+
+Asif Shahriar 📧 asifshahriar@gmail.com 
+
+---
+
 ## 📝 Citation
 
 If you find this survey or repository useful, please cite our work:
@@ -93,3 +111,4 @@ If you find this survey or repository useful, please cite our work:
   journal={arXiv preprint arXiv:2510.06445},
   year={2025}
 }
+
