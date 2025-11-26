@@ -11,11 +11,17 @@
 
 ## 📖 Overview
 
-The transition from passive LLMs to autonomous **LLM-agents** marks a paradigm shift in cybersecurity. While agents offer powerful capabilities for offensive and defensive operations, they introduce a new class of inherent security risks.
+The transition from passive LLMs to autonomous **LLM-agents** marks a paradigm shift in cybersecurity. While these agents can act as powerful tools for both offensive and defensive operations, the very agentic context introduces a new class of inherent security risks.
 
 This repository maintains the resources, taxonomy, and paper list associated with our survey: **"A Survey on Agentic Security: Applications, Threats and Defenses"**.
 
-We structure the field around three interdependent pillars:
+In this work we present the first holistic survey of the agentic security landscape, structured to answer three key questions a security researcher would ask: 
+
+- _“What can agents do for my security?”_
+- _“How can they be attacked?”_
+- _“How do I stop them?”_
+
+To this end, we define three pillars of taxonomy:
 1.  **Applications:** How agents are used in Red/Blue teaming.
 2.  **Threats:** Vulnerabilities inherent to agentic systems (e.g., indirect injection, memory poisoning).
 3.  **Defenses:** Countermeasures to harden agentic systems.
@@ -73,10 +79,12 @@ Below is the classification of the 150+ papers analyzed in our work.
 
 ## 📊 Key Insights
 
-A cross-cutting analysis of the literature reveals:
-* **Architecture:** A shift from monolithic to planner-executor and multi-agent designs.
-* **Model Dominance:** A heavy reliance on GPT-4, though open-weight models are rising.
-* **Gaps:** RAG poisoning is under-defended, and there is a lack of focus on image/audio modalities in agentic security.
+A cross-cutting analysis of the literature reveals clear structural patterns.
+* **Architecture and Autonomy:**  The field is shifting towards planner–executor (39.8%) and hybrid architectures (14%). It reflects a growing appreciation of decomposed cognitive pipelines, where planning, execution, and verification can be modularized to improve interpretability and debugging. In terms of autonomy, more than half of the works implement bounded automation, allowing agents to act independently within predefined limits, eliminating the need for non-scalable human approvals. 
+* **Agentic role distribution:**  We note the growing number of tool-caller (42) and governor/mediator (24) agents, which signifies a fundamental shift from monolithic reasoning to layered, self-checking collectives designed for explicit self-regulation and ethical alignment.  
+* **Model monopoly:** GPT-family models appear in 83% of studies, establishing de facto benchmark status but raising concerns about monoculture and reproducibility. Claude (71) and LLaMA (63) constitute the next major clusters. Except for LLaMA, other open-weight models like Mistral (30), Qwen (18) and Deepseek (15) are in the minority, suggesting a lack of trust in their agentic capabilities. Moreover, model-specific alignment differences create fragmentation: safety fine-tuning and evaluation pipelines are rarely transferable, hindering cross-model generalization and reproducibility. 
+* **Modalities:** Input modality spectrum is dominated by text (covered in 141 works), logs (101) and codes (93). Images (11), network traces (38) and binaries (10) are studied a lot less, which is a limitation since these modalities are often tied to security vulnerabilities and intrusion. This also shows a promising area of future work.
+* **Knowledge source:** Pretrained knowledge-bases dominate (132), with limited adoption of adaptive learning paradigms. ICL (66) and RAG (43) show partial adoption, while fine-tuning (38), and RL or preference learning (8) remain niche. This imbalance suggests a community preference for lightweight deployment over continual learning, which is practical for agents but potentially insecure in dynamic threat environments. It also provides future research direction in securing RAG pipelines with verified provenance, incremental fine-tuning, and model distillation. 
 
 ![Cross Cutting Analysis](assets/figure2_analysis.png)
 
