@@ -85,11 +85,9 @@ A cross-cutting analysis of the literature reveals:
 ## 🤝 Contribution
 This is an active research area. If you have a paper that fits into this taxonomy, please:
 
-Fork the repository.
-
-Add your paper to the relevant section in the list.
-
-Submit a Pull Request.
+1.  **Fork** the repository.
+2.  **Add** your paper to the relevant section in the list.
+3.  **Submit** a Pull Request.
 
 --- 
 
