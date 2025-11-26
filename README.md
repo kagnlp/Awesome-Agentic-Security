@@ -102,7 +102,7 @@ This is an active research area. If you have a paper that fits into this taxonom
 ## 📞 Contact
 For inquiries regarding the survey, dataset updates, or collaboration, please contact:
 
-Asif Shahriar 📧 asifshahriar@gmail.com 
+Asif Shahriar 📧 asif.asr11@gmail.com 
 
 ---
 
