@@ -344,19 +344,172 @@ This overview aims to support more research on agentic security. The goal is to 
 
 ##### Injection Attacks
 
+1.  Polymorphic Prompt: **"To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt"**.
+    *Zhilong Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.05739)]
+
+2.  AgentDojo: **"AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents"**. 
+    *Edoardo Debenedetti et al.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2406.13387)]
+
+3.  App-Injection: **"Prompt Injection Attack Against LLM-Integrated Applications"**.
+    *Yi Liu et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2306.05499)]
+
+4.  InjecAgent: **"InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents"**. 
+    *Qiusi Zhan et al.* ACL 2024. [[Paper](https://arxiv.org/abs/2403.02691)]
+
+5.  Commercial-Vuln: **"Commercial LLM Agents Are Already Vulnerable to Simple Yet Dangerous Attacks"**.
+    *Ang Li et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.08586)]
+
+6.  Indirect-Bench: **"Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models"**. 
+    *Jingwei Yi et al.* KDD 2025.
+
+7.  Prompt Infection: **"Prompt Infection: LLM-to-LLM Prompt Injection Within Multi-Agent Systems"**.
+    *Donghyun Lee and Mo Tiwari.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.07283)]
+
+8.  Memory Injection: **"A Practical Memory Injection Attack Against LLM Agents"**.
+    *Shen Dong et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.03704)]
+
+9.  Data Leakage: **"Simple Prompt Injection Attacks Can Leak Personal Data Observed by LLM Agents During Task Execution"**.
+    *Meysam Alizadeh et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.01055)]
+
+10. AgentVigil: **"AgentVigil: Generic Black-Box Red-Teaming for Indirect Prompt Injection Against LLM Agents"**.
+    *Zhun Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.05849)]
+
+11. ASB: **"Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-Based Agents"**. 
+    *Hanrong Zhang et al.* ICLR 2025. [[Paper](https://openreview.net/forum?id=...)]
+
+12. AgentHarm: **"AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"**. 
+    *Maksym Andriushchenko et al.* ICLR 2025. [[Paper](https://arxiv.org/abs/2410.09024)]
+
+13. Adaptive Attacks: **"Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents"**.
+    *Qiusi Zhan et al.* NAACL 2025. [[Paper](https://aclanthology.org/2025.findings-naacl.499/)]
+
 ##### Poisoning & Extraction Attacks
+
+1.  Poisoning Review: **"A Systematic Review of Poisoning Attacks Against Large Language Models"**.
+    *Neil Fendley et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.06518)]
+
+2.  AgentPoison: **"AgentPoison: Red-Teaming LLM Agents via Poisoning Memory or Knowledge Bases"**.
+    *Zhaorun Chen et al.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2407.12784)]
+
+3.  PoisonBench: **"PoisonBench: Assessing Large Language Model Vulnerability to Poisoned Preference Data"**. 
+    *Tingchen Fu et al.* ICML 2025.
+
+4.  Poisoning Trends: **"Scaling Trends for Data Poisoning in LLMs"**.
+    *Dillon Bowen et al.* AAAI 2025.
+
+5.  Ad Embedding: **"Attacking LLMs and AI Agents: Advertisement Embedding Attacks Against Large Language Models"**.
+    *Qiming Guo et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.17674)]
 
 ##### Jailbreak Attacks
 
+1.  Browser Agents: **"Aligned LLMs Are Not Aligned Browser Agents"**.
+    *Priyanshu Kumar et al.* ICLR 2025. [[Paper](https://arxiv.org/abs/2405.18561)]
+
+2.  Web Vulnerability: **"Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis"**.
+    *Jeffrey Yang Fan Chiang et al.* ICLR Workshop 2025.
+
+3.  Code Jailbreak: **"Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks"**.
+    *Shoumik Saha et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.01359)]
+
+4.  LLM-Fuzzer: **"LLM-Fuzzer: Scaling Assessment of Large Language Model Jailbreaks"**.
+    *Jiahao Yu et al.* USENIX Security 2024. [[Paper](https://www.usenix.org/conference/usenixsecurity24/presentation/yu-jiahao)]
+
+5.  Many-Shot: **"Many-Shot Jailbreaking"**.
+    *Cem Anil et al.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2404.08138)]
+
+6.  Robot Jailbreak: **"Jailbreaking LLM-Controlled Robots"**.
+    *Alexander Robey et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.13691)]
+
 ##### Agent Manipulation Attacks
 
+1.  Ignore Prompt: **"Ignore Previous Prompt: Attack Techniques for Language Models"**.
+    *Fábio Perez and Ian Ribeiro.* arXiv 2022. [[Paper](https://arxiv.org/abs/2211.09527)]
+
+2.  CAIN: **"CAIN: Hijacking LLM-Humans Conversations via Malicious System Prompts"**.
+    *Viet Pham and Thai Le.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.16888)]
+
+3.  Goal Hijacking: **"Pseudo-Conversation Injection for LLM Goal Hijacking"**.
+    *Zheng Chen and Buhui Yao.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.23678)]
+
+4.  Action Hijacking: **"Towards Action Hijacking of Large Language Model-Based Agent"**.
+    *Yuyang Zhang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2412.10807)]
+
+5.  InfoRM: **"InfoRM: Mitigating Reward Hacking in RLHF via Information-Theoretic Reward Modeling"**.
+    *Yuchun Miao et al.* 2024.
+
+6.  Reward Shaping: **"Reward Shaping to Mitigate Reward Hacking in RLHF"**.
+    *Jiayi Fu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.18770)]
+
+7.  Spec Gaming: **"Demonstrating Specification Gaming in Reasoning Models"**.
+    *Alexander Bondarenko et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.13295)]
+
+8.  Byzantine MARL: **"Byzantine Robust Cooperative Multi-Agent Reinforcement Learning as a Bayesian Game"**.
+    *Simin Li et al.* ICLR 2024. [[Paper](https://openreview.net/forum?id=z6KS9D1dxt&noteId=bmQTLbJlRL)]
+
+9.  Byzantine Coord: **"Byzantine-Robust Decentralized Coordination of LLM Agents"**.
+    *Yongrae Jo and Chanik Park.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.14928)]
+
 ##### Red-Teaming Attacks
+
+1.  Red Teaming LMs: **"Red Teaming Language Models with Language Models"**.
+    *Ethan Perez et al.* arXiv 2022. [[Paper](https://arxiv.org/abs/2202.03286)]
+
+2.  MART: **"MART: Improving LLM Safety with Multi-Round Automatic Red-Teaming"**.
+    *Suyu Ge et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2311.07689)]
+
+3.  Comm Attacks: **"Red-Teaming LLM Multi-Agent Systems via Communication Attacks"**.
+    *Pengfei He et al.* ACL 2025. [[Paper](https://aclanthology.org/2025.findings-acl.415/)]
+
+4.  Agent-in-the-Middle: **"Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-Based Agents"**.
+    *Fengyu Liu et al.* USENIX Security 2025. [[Paper](https://www.usenix.org/conference/usenixsecurity25/presentation/liu-fengyu)]
+
+5.  Privacy Risks: **"Searching for Privacy Risks in LLM Agents via Simulation"**.
+    *Yanzhe Zhang and Diyi Yang.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.10880)]
 
 #### Evaluation
 
 ##### Adversarial Benchmarks
 
+1.  ASB: **"Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-Based Agents"**. 
+    *Hanrong Zhang et al.* ICLR 2025. [[Paper](https://openreview.net/forum?id=V4y0CpX4hK)]
+
+2.  RAS-Eval: **"RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents in Real-World Environments"**. 
+    *Yuchuan Fu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.15253)]
+
+3.  AgentDojo: **"AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents"**. 
+    *Edoardo Debenedetti et al.* NeurIPS 2024. [[Paper](https://dl.acm.org/doi/10.5555/3737916.3740552)]
+
+4.  AgentHarm: **"AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"**. 
+    *Maksym Andriushchenko et al.* ICLR 2025. [[Paper](https://openreview.net/forum?id=AC5n7xHuR1)]
+
+5.  SafeArena: **"SafeArena: Evaluating the Safety of Autonomous Web Agents"**. 
+    *Ada Defne Tur et al.* ICML 2025. [[Paper](https://openreview.net/forum?id=7TrOBcxSvy)]
+
+6.  ST-WebAgentBench: **"ST-WebAgentBench: A Benchmark for Evaluating Safety & Trustworthiness in Web Agents"**. 
+    *Ido Levy et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2410.06703)]
+
+7.  JAWS-BENCH: **"Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks"**. 
+    *Shoumik Saha et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.01359)]
+
+8.  SandboxEval: **"SandboxEval: Towards Securing Test Environment for Untrusted Code"**. 
+    *Rafiqul Rabin et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.00018)]
+
+9.  InjecAgent: **"InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents"**. 
+    *Qiusi Zhan et al.* ACL 2024. [[Paper](https://aclanthology.org/2024.findings-acl.624/)]
+
+10. BrowserART: **"Aligned LLMs Are Not Aligned Browser Agents"**.
+    *Priyanshu Kumar et al.* ICLR 2025. [[Paper](https://openreview.net/forum?id=NsFZZU9gvk)]
+
 ##### Execution Environments
+
+1.  CVE-Bench: **"CVE-Bench: A Benchmark for AI Agents Ability to Exploit Real-World Web Application Vulnerabilities"**. 
+    *Yuxuan Zhu et al.* ICML 2025. [[Paper](https://openreview.net/pdf?id=3pk0p4NGmQ)]
+
+2.  DoomArena: **"DoomArena: A Framework for Testing AI Agents Against Evolving Security Threats"**. 
+    *Léo Boisvert et al.* CoLM 2025. [[Paper](https://openreview.net/forum?id=GanmYQ0RpE)]
+
+3.  WebArena: **"WebArena: A Realistic Web Environment for Building Autonomous Agents"**. 
+    *Shuyan Zhou et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2307.13854)]
 
 ### Defenses
 
