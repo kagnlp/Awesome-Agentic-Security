@@ -62,7 +62,7 @@ This overview aims to support more research on agentic security. The goal is to 
 
 * [Survey Introduction](#survey-introduction)
 * [Table of Contents](#table-of-contents)
-* [Related Surveys for LLMs Evaluation](#related-surveys-for-llms-evaluation)
+* [Related Surveys](#related-surveys)
 * [Papers](#papers)
     * [Applications](#applications)
         * [Red-Teaming](#red-teaming)
@@ -100,7 +100,37 @@ This overview aims to support more research on agentic security. The goal is to 
         * [Evaluation](#evaluation-1)
           * [Benchmarking Platforms](#benchmarking-platforms)
           * [Defense Testing](#defense-testing)
+* [Adverserial Benchmarks](#adverserial-benchmarks)
 
+## Related Surveys
+
+1.  Security of AI Agents: **"Security of AI Agents"**.
+    *Yifeng He et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2406.08689)]
+
+2.  Trustworthy Agents: **"A Survey on Trustworthy LLM Agents: Threats and Countermeasures"**.
+    *Miao Yu et al.* KDD 2025. [[Paper](https://dl.acm.org/doi/10.1145/3637528.3671607)]
+
+3.  TRISM: **"TRISM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-Based Agentic Multi-Agent Systems"**.
+    *Shaina Raza et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.04133)]
+
+4.  Agents Under Threat: **"AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways"**.
+    *Zehang Deng et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2406.02630)]
+
+5.  Safety at Scale: **"Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety"**.
+    *Xingjun Ma et al.* Foundations and Trends in Privacy and Security 2025. [[Paper](https://www.nowpublishers.com/article/Details/PSEC-030)]
+
+6.  Multi-Agent Challenges: **"Open Challenges in Multi-Agent Security: Towards Secure Systems of Interacting AI Agents"**.
+    *Christian Schroeder de Witt.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.02077)]
+
+7.  Commercial Vulnerabilities: **"Commercial LLM Agents Are Already Vulnerable to Simple Yet Dangerous Attacks"**.
+    *Ang Li et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.08586)]
+
+8.  Agent Communication: **"A Survey of LLM-Driven AI Agent Communication: Protocols, Security Risks, and Defense Countermeasures"**.
+    *Dezhang Kong et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.19676)]
+
+9.  Full Stack Safety: **"A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment"**.
+    *Kun Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.15585)]
+    
 ## Papers
 
 ### Applications
@@ -674,4 +704,17 @@ This overview aims to support more research on agentic security. The goal is to 
 7.  Agents-Under-Threat: **"AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways"**.
     *Zehang Deng et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2406.02630)]
 
+## Adverserial Benchmarks
 
+| Benchmark | Environment | Attacks / Threat | Findings | Model Insights |
+|-----------|-------------|------------------|----------|----------------|
+| **ASB (Zhang et al., 2025a)** | Multi-domain agent tasks with 400+ tools; 10 scenarios; standardized evaluation harness. | Prompt injection (primary), memory attacks, data poisoning, unauthorized tool invocation, privilege escalation; 27 attack/defense classes. | Existing agents highly vulnerable; many fail even simple attack tasks; reports refusal rate and a unified resilience metric. | Standardized, reproducible testbed spanning both offensive and defensive evaluation; clear taxonomy centered on prompt-injection surfaces. |
+| **RAS-Eval (Fu et al., 2025c)** | Real-world domains (finance, healthcare); 80 scenarios / 3,802 tasks; simulation and real tool use. | 11 CWE categories; broad adversarial stress. | Task completion drops by ∼36.8% on average (up to 85.7%) under attack. | Maps agent failures to CWE; couples domain realism with measurable robustness deltas. |
+| **AgentDojo (Debenedetti et al., 2024)** | Dynamic, stateful environment; 97 realistic multi-turn tool tasks (e.g., email, banking) with formal, deterministic checks. | Prompt injection via untrusted data/tools; security–utility trade-off analysis. | Defenses reduce attack success but degrade task utility; SOTA LLMs struggle on realistic pipelines. | Makes the security–utility trade-off explicit; judge is environment-state-based (no LLM-as-judge). |
+| **AgentHarm (Andriushchenko et al., 2025)** | Agent tasks spanning 110 harmful tasks across 11 harm categories. | Jailbreaks, direct injections, self-compromising actions, unsafe code execution. | Significant gaps in compliance and contextual safety across agents. | Introduces robustness, refusal accuracy, and ethical consistency metrics focused on harm reduction. |
+| **SafeArena (Tur et al., 2025)** | Web agents across multiple websites; 250 benign vs. 250 harmful tasks. | Malicious requests: misinformation, illegal actions, malware-related behaviors. | SOTA (e.g., GPT-4o) completes 34.7% of malicious requests. | Demonstrates real web-workflow risks; quantifies unsafe completions under realistic browsing. |
+| **ST-WebAgentBench (Levy et al., 2025)** | Enterprise-like web tasks: 222 tasks with 646 policy instances. | Policy compliance (consent, data boundaries); defines CuP, pCuP, and Risk Ratio. | Policy-compliant success is ≈38% lower than standard completion. | Shifts evaluation beyond raw success to trust/safety-constrained success. |
+| **JAWS-BENCH (Saha et al., 2025)** | Code agents with executable-aware judging across JAWS-0/1/M (empty, single-file, multi-file). | Systematic jailbreaking to elicit harmful, executable code; tests compliance, attack success, compile, run. | Up to 75% attack success in multi-file codebases. | Execution-grounded judging prevents false safety from mere textual refusals; highlights multi-file risks. |
+| **SandboxEval (Rabin et al., 2025)** | Code-execution testbeds; 51 hand-crafted sandbox test cases (applied to Dyff). | Dangerous behaviors: FS tampering, data exfiltration, network access, etc. | Naive sandbox configurations can be compromised by malicious code. | Security must include runtime isolation posture, not only agent policy. |
+| **BrowserART (Kumar et al., 2025)** | Browser-agent red-teaming toolkit across synthetic & real sites (100 harmful behaviors). | Jailbreaks against browser agents; transfer of chatbot jailbreaks with human rewrites. | Backbone LLM refusal does not transfer: GPT-4o pursued 98/100, o1-preview 63/100 harmful behaviors. | Agentic, tool-using context weakens safety adherence even without exotic attacks. |
+| **InjecAgent (Zhan et al., 2024)** | Tool-integrated agents; 1,054 test cases across 17 user tools and 62 attacker tools. | Indirect prompt injections via external content, API outputs, chained tools; path-augmented categorization. | Well-aligned agents frequently execute compromised instructions under indirect injections. | Provides fine-grained, propagation-path metrics; standardizes indirect-injection stress for tool-augmented agents. |
