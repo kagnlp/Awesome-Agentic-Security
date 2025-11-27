@@ -56,7 +56,6 @@ In the survey. we explain the agentic security landscape through three main poin
 
 This overview aims to support more research on agentic security. The goal is to use the strengths of autonomous agents while reducing the risks they bring. This will guide the development of systems that deliver real benefits while keeping harm low.
 
-
 ---
 
 ## Table of Contents
@@ -101,10 +100,6 @@ This overview aims to support more research on agentic security. The goal is to 
         * [Evaluation](#evaluation-1)
           * [Benchmarking Platforms](#benchmarking-platforms)
           * [Defense Testing](#defense-testing)
-      
-    * [LLM Leaderboards](#llm-leaderboards)
-    
-    * [Contributors](#contributors)
 
 ## Papers
 
@@ -517,42 +512,166 @@ This overview aims to support more research on agentic security. The goal is to 
 
 ##### Secure-by-Design Architectures
 
+1.  ACE: **"ACE: A Security Architecture for LLM-Integrated App Systems"**.
+    *Evan Li et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.20984)]
+
+2.  Resilient-Agents: **"Architecting Resilient LLM Agents: A Guide to Secure Plan-Then-Execute Implementations"**.
+    *Ron F. Del Rosario et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.08646)]
+
+3.  Task Shield: **"The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents"**.
+    *Feiran Jia et al.* ACL 2025. [[Paper](https://aclanthology.org/2024.acl-long.884/)]
+
+4.  Defeating-Injection-Design: **"Defeating Prompt Injections by Design"**.
+    *Edoardo Debenedetti et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.18813)]
+
+5.  Polymorphic-Prompt: **"To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt"**.
+    *Zhilong Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.05739)]
+
+6.  TRISM: **"TRISM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-Based Agentic Multi-Agent Systems"**.
+    *Shaina Raza et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.04133)]
+
+7.  Trustworthy-Agentic: **"Trustworthy Agentic AI Systems: A Cross-Layer Review of Architectures, Threat Models, and Governance Strategies"**.
+    *Ibrahim Adabara et al.* F1000Research 2025.
+
+8.  ModelGuard: **"ModelGuard: Information-Theoretic Defense Against Model Extraction Attacks"**.
+    *Minxue Tang et al.* USENIX Security 2024. [[Paper](https://www.usenix.org/conference/usenixsecurity24/presentation/tang-minxue)]
+
+9.  Security-Of-AI-Agents: **"Security of AI Agents"**.
+    *Yifeng He et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2406.08689)]
+
+10. Threat-Model: **"Securing Agentic AI: A Comprehensive Threat Model and Mitigation Framework for Generative AI Agents"**.
+    *Vineeth Sai Narajala and Om Narayan.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.19956)]
+
 ##### Multi-Agent Security
+
+1.  D-CIPHER: **"D-CIPHER: Dynamic Collaborative Intelligent Multi-Agent System with Planner and Heterogeneous Executors for Offensive Security"**.
+    *Meet Udeshi et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.10931)]
+
+2.  Secure-Multi-LLM: **"Secure Multi-LLM Agentic AI and Agentification for Edge General Intelligence by Zero-Trust: A Survey"**.
+    *Yinqiu Liu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.19870)]
+
+3.  PhishDebate: **"PhishDebate: An LLM-Based Multi-Agent Framework for Phishing Website Detection"**.
+    *Wenhao Li et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.15656)]
+
+4.  Robustness-Smoothing: **"Enhancing Robustness of LLM-Driven Multi-Agent Systems Through Randomized Smoothing"**.
+    *Jinwei Hu et al.* Chinese Journal of Aeronautics 2025. [[Paper](https://www.sciencedirect.com/science/article/pii/S1000936125003851)]
+
+5.  Challenges-Multi-Agent: **"LLM Multi-Agent Systems: Challenges and Open Problems"**.
+    *Shanshan Han et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2402.03578)]
+
+6.  Cross-Domain-Challenges: **"Seven Security Challenges That Must Be Solved in Cross-Domain Multi-Agent LLM Systems"**.
+    *Ronny Ko et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.23847)]
 
 ##### Runtime Protection
 
+1.  R^2-Guard: **"R^2-Guard: Robust Reasoning Enabled LLM Guardrail via Knowledge-Enhanced Logical Reasoning"**.
+    *Mintong Kang and Bo Li.* ICLR 2025. [[Paper](https://openreview.net/forum?id=CkgKSqZbuC)]
+
+2.  AgentSpec: **"AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents"**.
+    *Haoyu Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.18666)]
+
+3.  SentinelAgent: **"SentinelAgent: Graph-Based Anomaly Detection in Multi-Agent Systems"**.
+    *Xu He et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.24201)]
+
+4.  Confront-Insider: **"Confront Insider Threat: Precise Anomaly Detection in Behavior Logs Based on LLM Fine-Tuning"**.
+    *Shuang Song et al.* COLING 2025. [[Paper](https://aclanthology.org/2025.coling-main.578/)]
+
+5.  GuardAgent: **"GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning"**.
+    *Zhen Xiang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2406.09187)]
+
+6.  AgentGuard: **"AgentGuard: Repurposing Agentic Orchestrator for Safety Evaluation of Tool Orchestration"**.
+    *Jizhou Chen and Samuel Lee Cong.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.09809)]
+
+7.  AGrail: **"AGrail: A Lifelong Agent Guardrail with Effective and Adaptive Safety Detection"**.
+    *Weidi Luo et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.11448)]
+
+8.  PSG-Agent: **"PSG-Agent: Personality-Aware Safety Guardrail for LLM-Based Agents"**.
+    *Yaozu Wu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.23614)]
+
+9.  Bedrock-Security: **"Securing Amazon Bedrock Agents: Safeguarding Against Indirect Prompt Injections"**.
+    *Amazon Web Services.* AWS White Paper 2024. [[Link](https://aws.amazon.com/blogs/machine-learning/securing-amazon-bedrock-agents-a-guide-to-safeguarding-against-indirect-prompt-injections/)]
+
 ##### Security Operations
+
+1.  IRIS: **"IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities"**.
+    *Ziyang Li et al.* ICLR 2025. [[Paper](https://openreview.net/forum?id=9LdJDU7E91)]
+
+2.  Chain-of-Agents: **"Chain-of-Agents: End-to-End Agent Foundation Models via Multi-Agent Distillation and Agentic RL"**.
+    *Weizhen Li et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.13167)]
+
+3.  RepoAudit: **"RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing"**.
+    *Jinyao Guo et al.* ICML 2025. [[Paper](https://openreview.net/forum?id=TXcifVbFpG)]
+
+4.  Knighter: **"Knighter: Transforming Static Analysis with LLM-Synthesized Checkers"**.
+    *Chenyuan Yang et al.* SOSP 2025. [[Paper](https://dl.acm.org/doi/10.1145/3731569.3764827)]
+
+5.  VeriPlan: **"VeriPlan: Integrating Formal Verification and LLMs into End-User Planning"**.
+    *Christine P. Lee et al.* CHI 2025. [[Paper](https://dl.acm.org/doi/10.1145/3706598.3714113)]
+
+6.  Formal-Verification-MAS: **"Formal Verification of Open Multi-Agent Systems"**.
+    *Panagiotis Kouvaros et al.* AAMAS 2019. [[Paper](https://dl.acm.org/doi/10.5555/3306127.3331691)]
+
+7.  Specifying-Behavior: **"Formally Specifying the High-Level Behavior of LLM-Based Agents"**.
+    *Maxwell Crouse et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2310.08535)]
 
 #### Evaluation
 
 ##### Benchmarking Platforms
 
+1.  AgentDojo: **"AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents"**. 
+    *Edoardo Debenedetti et al.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2406.13387)]
+
+2.  SafeArena: **"SafeArena: Evaluating the Safety of Autonomous Web Agents"**. 
+    *Ada Defne Tur et al.* ICML 2025.
+
+3.  RAS-Eval: **"RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents in Real-World Environments"**. 
+    *Yuchuan Fu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.15253)]
+
+4.  ASB: **"Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-Based Agents"**. 
+    *Hanrong Zhang et al.* ICLR 2025. [[Paper](https://openreview.net/forum?id=7TrOBcxSvy)]
+
+5.  AgentHarm: **"AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"**. 
+    *Maksym Andriushchenko et al.* ICLR 2025. [[Paper](https://openreview.net/forum?id=AC5n7xHuR1)]
+
+6.  DoomArena: **"DoomArena: A Framework for Testing AI Agents Against Evolving Security Threats"**. 
+    *Léo Boisvert et al.* CoLM 2025.  [[Paper](https://openreview.net/forum?id=GanmYQ0RpE)]
+
+7.  ToolFuzz: **"ToolFuzz - Automated Agent Tool Testing"**.
+    *Ivan Milev et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.04479)]
+
+8.  aiXamine: **"aiXamine: Simplified LLM Safety and Security"**.
+    *Fatih Deniz et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.14985)]
+
+9.  TurkingBench: **"TurkingBench: A Challenge Benchmark for Web Agents"**. 
+    *Kevin Xu et al.* NAACL 2025. [[Paper](https://aclanthology.org/2025.naacl-long.188/)]
+
+10. τ-Bench: **"τ-Bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"**. 
+    *Shunyu Yao et al.* 2024. [[Paper](https://arxiv.org/abs/2406.12045)]
+
+11. WebArena: **"WebArena: A Realistic Web Environment for Building Autonomous Agents"**. 
+    *Shuyan Zhou et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2307.13854)]
+
 ##### Defense Testing
 
+1.  Adaptive-Attacks: **"Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents"**.
+    *Qiusi Zhan et al.* NAACL 2025. [[Paper](https://aclanthology.org/2025.findings-naacl.499/)]
 
----
+2.  Open-Challenges: **"Open Challenges in Multi-Agent Security: Towards Secure Systems of Interacting AI Agents"**.
+    *Christian Schroeder de Witt.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.02077)]
 
-## 📊 Key Insights
+3.  Trustworthy-Survey: **"A Survey on Trustworthy LLM Agents: Threats and Countermeasures"**.
+    *Miao Yu et al.* KDD 2025. [[Paper](https://dl.acm.org/doi/10.1145/3711896.3736561)]
 
-A cross-cutting analysis of the literature reveals clear structural patterns.
-* **Architecture and Autonomy:**  The field is shifting towards planner–executor (39.8%) and hybrid architectures (14%). It reflects a growing appreciation of decomposed cognitive pipelines, where planning, execution, and verification can be modularized to improve interpretability and debugging. In terms of autonomy, more than half of the works implement bounded automation, allowing agents to act independently within predefined limits, eliminating the need for non-scalable human approvals. 
-* **Agentic role distribution:**  We note the growing number of tool-caller (42) and governor/mediator (24) agents, which signifies a fundamental shift from monolithic reasoning to layered, self-checking collectives designed for explicit self-regulation and ethical alignment.  
-* **Model monopoly:** GPT-family models appear in 83% of studies, establishing de facto benchmark status but raising concerns about monoculture and reproducibility. Claude (71) and LLaMA (63) constitute the next major clusters. Except for LLaMA, other open-weight models like Mistral (30), Qwen (18) and Deepseek (15) are in the minority, suggesting a lack of trust in their agentic capabilities. Moreover, model-specific alignment differences create fragmentation: safety fine-tuning and evaluation pipelines are rarely transferable, hindering cross-model generalization and reproducibility. 
-* **Modalities:** Input modality spectrum is dominated by text (covered in 141 works), logs (101) and codes (93). Images (11), network traces (38) and binaries (10) are studied a lot less, which is a limitation since these modalities are often tied to security vulnerabilities and intrusion. This also shows a promising area of future work.
-* **Knowledge source:** Pretrained knowledge-bases dominate (132), with limited adoption of adaptive learning paradigms. ICL (66) and RAG (43) show partial adoption, while fine-tuning (38), and RL or preference learning (8) remain niche. This imbalance suggests a community preference for lightweight deployment over continual learning, which is practical for agents but potentially insecure in dynamic threat environments. It also provides future research direction in securing RAG pipelines with verified provenance, incremental fine-tuning, and model distillation. 
+4.  Risk-Navigating: **"Navigating the Risks: A Survey of Security, Privacy, and Ethics Threats in LLM-Based Agents"**.
+    *Yuyou Gan et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2411.09523)]
 
-![Cross Cutting Analysis](assets/figure2_analysis.png)
+5.  Safety-At-Scale: **"Safety at Scale: A Comprehensive Survey of Large Model and Agent Safety"**.
+    *Xingjun Ma et al.* Foundations and Trends in Privacy and Security 2025. [[Paper](https://www.nowpublishers.com/article/Details/SEC-051)]
 
+6.  Full-Stack-Safety: **"A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment"**.
+    *Kun Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.15585)]
 
---- 
-
-## 📞 Contact
-For inquiries regarding the survey, dataset updates, or collaboration, please contact:
-
-Asif Shahriar 📧 asif.asr11@gmail.com 
-
----
-
-## 📝 Citation
+7.  Agents-Under-Threat: **"AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways"**.
+    *Zehang Deng et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2406.02630)]
 
 
