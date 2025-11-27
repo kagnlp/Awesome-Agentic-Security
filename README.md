@@ -718,3 +718,10 @@ This overview aims to support more research on agentic security. The goal is to 
 | **SandboxEval (Rabin et al., 2025)** | Code-execution testbeds; 51 hand-crafted sandbox test cases (applied to Dyff). | Dangerous behaviors: FS tampering, data exfiltration, network access, etc. | Naive sandbox configurations can be compromised by malicious code. | Security must include runtime isolation posture, not only agent policy. |
 | **BrowserART (Kumar et al., 2025)** | Browser-agent red-teaming toolkit across synthetic & real sites (100 harmful behaviors). | Jailbreaks against browser agents; transfer of chatbot jailbreaks with human rewrites. | Backbone LLM refusal does not transfer: GPT-4o pursued 98/100, o1-preview 63/100 harmful behaviors. | Agentic, tool-using context weakens safety adherence even without exotic attacks. |
 | **InjecAgent (Zhan et al., 2024)** | Tool-integrated agents; 1,054 test cases across 17 user tools and 62 attacker tools. | Indirect prompt injections via external content, API outputs, chained tools; path-augmented categorization. | Well-aligned agents frequently execute compromised instructions under indirect injections. | Provides fine-grained, propagation-path metrics; standardizes indirect-injection stress for tool-augmented agents. |
+
+
+## Contributors
+
+<a href="https://github.com/kagnlp/Awesome-Agentic-Security/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=kagnlp/Awesome-Agentic-Security" />
+</a>
