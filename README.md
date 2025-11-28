@@ -140,40 +140,39 @@ This overview aims to support more research on agentic security. The goal is to 
 ##### Autonomous Penetration Testing
 
 1.  PentestGPT: **"PentestGPT: An LLM-empowered Automatic Penetration Testing Tool"**. 
-    *Gelei Deng et al.* USENIX Security 2024. [[Paper](https://www.usenix.org/system/files/usenixsecurity24-deng.pdf)]
+    *Gelei Deng et al.* USENIX Security 2024. [[Paper](https://www.usenix.org/system/files/usenixsecurity24-deng.pdf)][[GitHub](https://github.com/GreyDGL/PentestGPT)]
 
 2.  PentestAgent: **"PentestAgent: Incorporating LLM Agents to Automated Penetration Testing"**.
-    *Xiangmin Shen et al.* ASIA CCS 2025. [[Paper](https://dl.acm.org/doi/10.1145/3708821.3733882)]
+    *Xiangmin Shen et al.* ASIA CCS 2025. [[Paper](https://dl.acm.org/doi/10.1145/3708821.3733882)][[GitHub](https://github.com/nbshenxm/pentest-agent)]
 
 3.  Vulnbot: **"VulnBot: Autonomous Penetration Testing for A Multi-Agent Collaborative Framework"**. 
-    *He Kong et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2501.13411)]
+    *He Kong et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2501.13411)][[GitHub](https://github.com/KHenryAegis/VulnBot)]
 
 4.  Aracne: **"Aracne: An LLM-based Autonomous Shell Pentesting Agent"**.
-    *Tomas Nieponice et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.18528)]
+    *Tomas Nieponice et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.18528)][[Github](https://github.com/stratosphereips/aracne)]
 
 5.  Enterprise-Test: **"Can LLMs Hack Enterprise Networks? Autonomous Assumed Breach Penetration-Testing Active Directory Networks"**. 
-    *Andreas Happe and Jürgen Cito.* ACM Trans. Softw. Eng. Methodol. 2025. [[Paper](https://dl.acm.org/doi/10.1145/3766895)]
-
+    *Andreas Happe and Jürgen Cito.* ACM Trans. Softw. Eng. Methodol. 2025. [[Paper](https://dl.acm.org/doi/10.1145/3766895)][[GitHub](https://github.com/andreashappe/cochise)]
 6.  HackSynth: **"Hacksynth: LLM Agent and Evaluation Framework for Autonomous Penetration Testing"**. 
-    *Lajos Muzsai et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2412.01778)]
+    *Lajos Muzsai et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2412.01778)][[Github](https://github.com/aielte-research/HackSynth)]
 
 7.  AutoPentest: **"AutoPentest: Enhancing Vulnerability Management with Autonomous LLM Agents"**. 
-    *Julius Henke.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.10321)]
+    *Julius Henke.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.10321)][[Github](https://github.com/JuliusHenke/autopentest)]
 
 8.  LLM-Pentest-Efficacy: **"On the Surprising Efficacy of LLMs for Penetration-Testing"**. 
     *Andreas Happe and Jürgen Cito.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.00829)]
 
 9.  Incalmo: **"Incalmo: An Autonomous LLM-assisted System for Red Teaming Multi-Host Networks"**. 
-    *Brian Singer et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2501.16466)]
+    *Brian Singer et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2501.16466)][[Github]( https://github.com/bsinger98/Incalmo)]
 
 10. xOffense: **"xOffense: An AI-Driven Autonomous Penetration Testing Framework with Offensive Knowledge-Enhanced LLMs and Multi Agent Systems"**. 
     *Phung Duc Luong et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.13021)]
 
 11. AutoPenBench: **"AutoPenBench: Benchmarking Generative Agents for Penetration Testing"**. 
-    *Luca Gioacchini et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.03225)]
+    *Luca Gioacchini et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.03225)][[Github](https://github.com/lucagioacchini/auto-pen-bench)]
 
 12. AI-Pentest-Benchmark: **"Towards automated penetration testing: Introducing LLM Benchmark, Analysis, and Improvements"**. 
-    *Isamu Isozaki et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.17141)]
+    *Isamu Isozaki et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.17141)][[Github](https://github.com/isamu-isozaki/AI-Pentest-Benchmark)]
 
 ##### Automated Vulnerability Discovery & Fuzzing
 
@@ -181,9 +180,9 @@ This overview aims to support more research on agentic security. The goal is to 
     *Jie Zhu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.21302)]
 
 2.  ChatAFL: **"Large Language Model Guided Protocol Fuzzing"**. 
-    *Ruijie Meng et al.* NDSS 2024. [[Paper](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-fuzzing/)]
+    *Ruijie Meng et al.* NDSS 2024. [[Paper](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-fuzzing/)][[Github](https://github.com/ChatAFLndss/ChatAFL)]
 
-3.  One-Day-Exploits: **"LLM Agents Can Autonomously Exploit One-Day Vulnerabilities"**. [cite: 52, 430]
+3.  One-Day-Exploits: **"LLM Agents Can Autonomously Exploit One-Day Vulnerabilities"**. 
     *Richard Fang et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2404.08144)]
 
 4.  Zero-Day-Teams: **"Teams of LLM Agents Can Exploit Zero-Day Vulnerabilities"**. 
@@ -193,25 +192,25 @@ This overview aims to support more research on agentic security. The goal is to 
     *Ziyue Wang and Liyi Zhou.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.21579)]
 
 6.  Sec-Bench: **"Sec-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks"**. 
-    *Hwiwon Lee et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.11791)]
+    *Hwiwon Lee et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.11791)][[Github](https://github.com/SEC-bench/SEC-bench)]
 
 7.  CVE-Bench (Web): **"CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities"**. 
-    *Yuxuan Zhu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.17332)]
+    *Yuxuan Zhu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.17332)][[Github](https://github.com/uiuc-kang-lab/cve-bench)]
 
 8.  CVE-bench (Repair): **"CVE-bench: Benchmarking LLM-based Software Engineering Agent's Ability to Repair Real-World CVE Vulnerabilities"**. 
     *Peiran Wang et al.* NAACL 2025. [[Paper](https://aclanthology.org/2025.naacl-long.212/)]
 
 9.  ExCyTInBench: **"Excytin-bench: Evaluating LLM Agents on Cyber Threat Investigation"**. 
-    *Yiran Wu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.14201)]
+    *Yiran Wu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.14201)][[Github](https://github.com/kaebvcidn/Excytin-Bench)]
 
 10. LLM-Fuzzer: **"LLM-Fuzzer: Scaling Assessment of Large Language Model Jailbreaks"**. 
-    *Jiahao Yu et al.* USENIX Security 2024. [[Paper](https://www.usenix.org/system/files/usenixsecurity24-yu-jiahao.pdf)]
+    *Jiahao Yu et al.* USENIX Security 2024. [[Paper](https://www.usenix.org/system/files/usenixsecurity24-yu-jiahao.pdf)][[Github](https://github.com/sherdencooper/GPTFuzz)]
 
 11. TitanFuzz: **"Large Language Models Are Zero-Shot Fuzzers: Fuzzing Deep-Learning Libraries via Large Language Models"**. 
-    *Yinlin Deng et al.* ISSTA 2023. [[Paper](https://dl.acm.org/doi/10.1145/3597926.3598067)]
+    *Yinlin Deng et al.* ISSTA 2023. [[Paper](https://dl.acm.org/doi/10.1145/3597926.3598067)][[Github](https://github.com/ise-uiuc/TitanFuzz)]
 
 12. FuzzGPT: **"Large Language Models Are Edge-Case Generators: Crafting Unusual Programs for Fuzzing Deep Learning Libraries"**.
-    *Yinlin Deng et al.* ICSE 2024. [[Paper](https://dl.acm.org/doi/10.1145/3597503.3623343)]
+    *Yinlin Deng et al.* ICSE 2024. [[Paper](https://dl.acm.org/doi/10.1145/3597503.3623343)][[Github](https://github.com/ise-uiuc/FuzzGPT)]
 
 ##### Exploit Generation
 
@@ -222,13 +221,13 @@ This overview aims to support more research on agentic security. The goal is to 
     *Bikash Saha and Sandeep Kumar Shukla.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.07586)]
 
 3.  AiTM: **"Red-Teaming LLM Multi-Agent Systems via Communication Attacks"**. 
-    *Pengfei He et al.* ACL 2025. [[Paper](https://aclanthology.org/2025.findings-acl.349/)]
+    *Pengfei He et al.* ACL 2025. [[Paper](https://aclanthology.org/2025.findings-acl.349/)][[Github](https://github.com/PengfeiHePower/AiTM)]
 
 4.  CVE-Genie: **"From CVE Entries to Verifiable Exploits: An Automated Multi-Agent Framework for Reproducing CVEs"**. 
-    *Saad Ullah et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.01835)]
+    *Saad Ullah et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.01835)][[Github](https://github.com/MaKyOtOx/cve-genie-prompts)]
 
 5.  LLM4CVE: **"LLM4CVE: Enabling Iterative Automated Vulnerability Repair with Large Language Models"**. 
-    *Mohamad Fakih et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2501.03446)]
+    *Mohamad Fakih et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2501.03446)][[Link](https://sites.google.com/view/llm4cve)]
 
 #### Blue-Teaming
 
@@ -238,16 +237,16 @@ This overview aims to support more research on agentic security. The goal is to 
     *Amine Tellache et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.10677)]
 
 2.  IRCopilot: **"RCopilot: Automated Incident Response with Large Language Models"**. 
-    *Xihuan Lin et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.20945)]
+    *Xihuan Lin et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.20945)][[Code](https://anonymous.4open.science/r/IRCopilot-78A0)]
 
 3.  CORTEX: **"Cortex: Collaborative LLM Agents for High-Stakes Alert Triage"**.
     *Bowen Wei et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.00311)]
 
 4.  AutoBnB: **"AutoBnB: Multi-Agent Incident Response with Large Language Models"**. 
-    *Zefang Liu.* ISDFS 2025. [[Paper](https://ieeexplore.ieee.org/document/11012055)]
+    *Zefang Liu.* ISDFS 2025. [[Paper](https://ieeexplore.ieee.org/document/11012055)][[Github](https://github.com/zefang-liu/AutoBnB)]
 
 5.  SOC-Empirical-Study: **"LLMs in the SOC: An Empirical Study of Human-AI Collaboration in Security Operations Centres"**. 
-    *Ronal Singh et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.18947)]
+    *Ronal Singh et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.18947)][[Github](https://github.com/eSentire-Labs/LLM-Gateway)]
 
 6.  CyberSOCEval: **"CyberSOCEval: Benchmarking LLMs Capabilities for Malware Analysis and Threat Intelligence Reasoning"**.
     *Lauren Deason et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.20166)]
@@ -258,30 +257,31 @@ This overview aims to support more research on agentic security. The goal is to 
 ##### Intelligent Threat Hunting
 
 1.  ProvSEEK: **"LLM-Driven Provenance Forensics for Threat Investigation and Detection"**. 
-    *Kunal Mukherjee and Murat Kantarcioglu.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.21323)]
+    *Kunal Mukherjee and Murat Kantarcioglu.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.21323)][[Github][(https://anonymous.4open.science/r/provseek-anonymous-DDDD)]]
 
 2.  CTI-Vulnerabilities: **"Uncovering Vulnerabilities of LLM-Assisted Cyber Threat Intelligence"**. 
-    *Yuqiao Meng et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.23573)]
+    *Yuqiao Meng et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.23573)][[Github](https://github.com/mengyuqiao/LLM-CTI)]
 
 3.  LLMCloudHunter: **"LLMCloudHunter: Harnessing LLMs for Automated Extraction of Detection Rules from Cloud-Based CTI"**. 
-    *Yuval Schwartz et al.* WWW 2025. [[Paper](https://dl.acm.org/doi/10.1145/3696410.3714798)]
+    *Yuval Schwartz et al.* WWW 2025. [[Paper](https://dl.acm.org/doi/10.1145/3696410.3714798)][[Github](https://github.com/YuvalSchwartz/llm-cloud-hunter)]
 
 ##### Automated Forensics
 
 1.  RepoAudit: **"RepoAudit: An Autonomous LLM-Agent for Repository-Level Code Auditing"**. 
-    *Jinyao Guo et al.* ICML 2025. [[Paper](https://openreview.net/pdf?id=TXcifVbFpG)]
+    *Jinyao Guo et al.* ICML 2025. [[Paper](https://openreview.net/pdf?id=TXcifVbFpG)][[Github](https://github.com/PurCL/RepoAudit)]
 
 2.  Cloud-Forensics: **"LLM-Powered Automated Cloud Forensics: From Log Analysis to Investigation"**. 
     *Dalal Alharthi and Rozhin Yasaei.* IEEE CLOUD 2025 . [[Paper](https://ieeexplore.ieee.org/document/11120597)]
 
 3.  CyberSleuth: **"CyberSleuth: Autonomous Blue-Team LLM Agent for Web Attack Forensics"**. 
-    *Stefano Fumero et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.20643)]
+    *Stefano Fumero et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.20643)][[Github](https://github.com/SmartData-Polito/LLM_Agent_
+Cybersecurity_Forensic)]
 
 4.  GALA: **"GALA: Can Graph-Augmented Large Language Model Agentic Workflows Elevate Root Cause Analysis?"**. 
     *Yifang Tian et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.12472)]
 
 5.  MAST: **"Why Do Multiagent Systems Fail?"**. 
-    *Melissa Z Pan et al.* ICLR Workshop 2025. [[Paper](https://openreview.net/pdf?id=wM521FqPvI)]
+    *Melissa Z Pan et al.* ICLR Workshop 2025. [[Paper](https://openreview.net/pdf?id=wM521FqPvI)][[Github](https://github.com/multi-agent-systems-failure-taxonomy/MAST)]
 
 6.  CIAF: **"Cloud Investigation Automation Framework (CIAF): An AI-Driven Approach to Cloud Forensics"**. 
     *Dalal Alharthi and Ivan Roberto Kawaminami Garcia.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.00452)]
@@ -289,10 +289,10 @@ This overview aims to support more research on agentic security. The goal is to 
 ##### Autonomous Patching
 
 1.  CVE-Bench (Repair): **"CVE-Bench: A Benchmark for AI Agents’ Ability to Exploit Real-World Web Application Vulnerabilities"**. 
-    *Yuxuan Zhu et al.* ICML 2025. [[Paper](https://openreview.net/pdf?id=3pk0p4NGmQ)]
+    *Yuxuan Zhu et al.* ICML 2025. [[Paper](https://openreview.net/pdf?id=3pk0p4NGmQ)][[Github](https://github.com/uiuc-kang-lab/cve-bench)]
 
 2.  RepairAgent: **"RepairAgent: An Autonomous, LLM-Based Agent for Program Repair"**. 
-    *Islem Bouzenia et al.* ICSE 2025. [[Paper](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00157)]
+    *Islem Bouzenia et al.* ICSE 2025. [[Paper](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00157)][[Github](https://github.com/sola-st/RepairAgent)]
 
 3.  Gemini-Patching: **"AI-Powered Patching: The Future of Automated Vulnerability Fixes"**. 
     *Jan Keller and Jan Nowakowski.* Technical Report 2024. [[Link](https://research.google/pubs/ai-powered-patching-the-future-of-automated-vulnerability-fixes/)]
@@ -309,7 +309,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Zhenning Yang et al.* ACM SIGOPS Operating Systems Review 2025. [[Paper](https://dl.acm.org/doi/10.1145/3759441.3759443)]
 
 2.  KubeIntellect: **"KubeIntellect: A Modular LLM-Orchestrated Agent Framework for End-to-End Kubernetes Management"**. 
-    *Mohsen Seyedkazemi Ardebili and Andrea Bartolini.* 2025. [[Paper](https://arxiv.org/abs/2509.02449)]
+    *Mohsen Seyedkazemi Ardebili and Andrea Bartolini.* 2025. [[Paper](https://arxiv.org/abs/2509.02449)][[Github](https://github.com/MSKazemi/KubeIntellect)]
 
 3.  LLMSecConfig: **"LLMSecConfig: An LLM-Based Approach for Fixing Software Container Misconfigurations"**.
     *Ziyang Ye et al.* 2025. [[Paper](https://www.computer.org/csdl/proceedings-article/msr/2025/018300a629/27vTruUNcXe)]
@@ -323,27 +323,27 @@ This overview aims to support more research on agentic security. The goal is to 
 ##### Web & Application Security
 
 1.  MAPTA: **"Multi-Agent Penetration Testing AI for the Web"**. 
-    *Isaac David and Arthur Gervais.* 2025. [[Paper](https://arxiv.org/abs/2508.20816)]
+    *Isaac David and Arthur Gervais.* 2025. [[Paper](https://arxiv.org/abs/2508.20816)][[Github](https://github.com/arthurgervais/mapta)]
 
 2.  Browsing-Dangers: **"The Hidden Dangers of Browsing AI Agents"**. 
     *Mykyta Mudryi et al.* 2025. [[Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5290351)]
 
 3.  AIOS: **"AIOS: LLM Agent Operating System"**. 
-    *Kai Mei et al.* Conference on Language Modeling 2025. [[Paper](https://openreview.net/pdf?id=L4HHkCDz2x)]
+    *Kai Mei et al.* Conference on Language Modeling 2025. [[Paper](https://openreview.net/pdf?id=L4HHkCDz2x)][[Github](https://github.com/agiresearch/AIOS)]
 
 4.  OS-Agents-Survey: **"OS Agents: A Survey on MLLM-based Agents for Computer, Phone and Browser Use"**. 
-    *Xueyu Hu et al.* 2025. [[Paper](https://aclanthology.org/2025.acl-long.369/)]
+    *Xueyu Hu et al.* 2025. [[Paper](https://aclanthology.org/2025.acl-long.369/)][[Github](https://github.com/OS-Agent-Survey/OS-Agent-Survey)]
 
 5.  Prompt-Flow-Integrity: **"Prompt Flow Integrity to Prevent Privilege Escalation in LLM Agents"**. 
-    *Juhee Kim et al.* 2025. [[Paper](https://arxiv.org/abs/2503.15547)]
+    *Juhee Kim et al.* 2025. [[Paper](https://arxiv.org/abs/2503.15547)][[Github](https://github.com/compsec-snu/pfi)]
 
 6.  Progent: **"Progent: Programmable Privilege Control for LLM Agents"**. 
-    *Tianneng Shi et al.* 2025. [[Paper](https://arxiv.org/abs/2504.11703)]
+    *Tianneng Shi et al.* 2025. [[Paper](https://arxiv.org/abs/2504.11703)][[Github](https://github.com/sunblaze-ucb/progent)]
 
 ##### Specialized Domains
 
 1.  LISA: **"LISA Technical Report: An Agentic Framework for Smart Contract Auditing"**. 
-    *Izaiah Sun et al.* 2025. [[Paper](https://arxiv.org/abs/2509.24698)]
+    *Izaiah Sun et al.* 2025. [[Paper](https://arxiv.org/abs/2509.24698)][[Github](https://github.com/agentlisa)]
 
 2.  SmartLLM: **"SmartLLM: Smart Contract Auditing Using Custom Generative AI"**. 
     *Jun Kevin and Pujianto Yugopuspito.* 2025. [[Paper](https://ieeexplore.ieee.org/document/11019687)]
@@ -352,7 +352,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Wei Ma et al.* 2024. [[Paper](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00027)]
 
 4.  AuditGPT: **"AuditGPT: Auditing Smart Contracts with ChatGPT"**. 
-    *Shihao Xia et al.* 2024. [[Paper](http://arxiv.org/abs/2404.04306)]
+    *Shihao Xia et al.* 2024. [[Paper](http://arxiv.org/abs/2404.04306)][[Github](https://github.com/pratraut/auditgpt)]
 
 5.  HIPAA-Agent: **"Towards a HIPAA Compliant Agentic AI System in Healthcare"**. 
     *Subash Neupane et al.* 2025. [[Paper](https://arxiv.org/abs/2504.17669)]
@@ -385,7 +385,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Ang Li et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.08586)]
 
 6.  Indirect-Bench: **"Benchmarking and Defending Against Indirect Prompt Injection Attacks on Large Language Models"**. 
-    *Jingwei Yi et al.* KDD 2025.
+    *Jingwei Yi et al.* KDD 2025. [[Paper](https://dl.acm.org/doi/10.1145/3690624.3709179)]
 
 7.  Prompt Infection: **"Prompt Infection: LLM-to-LLM Prompt Injection Within Multi-Agent Systems"**.
     *Donghyun Lee and Mo Tiwari.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.07283)]
@@ -417,10 +417,10 @@ This overview aims to support more research on agentic security. The goal is to 
     *Zhaorun Chen et al.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2407.12784)]
 
 3.  PoisonBench: **"PoisonBench: Assessing Large Language Model Vulnerability to Poisoned Preference Data"**. 
-    *Tingchen Fu et al.* ICML 2025.
+    *Tingchen Fu et al.* ICML 2025. [[Paper](https://openreview.net/pdf?id=21kAulloDG)]
 
 4.  Poisoning Trends: **"Scaling Trends for Data Poisoning in LLMs"**.
-    *Dillon Bowen et al.* AAAI 2025.
+    *Dillon Bowen et al.* AAAI 2025. [[Paper](http://ojs.aaai.org/index.php/AAAI/article/view/34929)]
 
 5.  Ad Embedding: **"Attacking LLMs and AI Agents: Advertisement Embedding Attacks Against Large Language Models"**.
     *Qiming Guo et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.17674)]
@@ -431,7 +431,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Priyanshu Kumar et al.* ICLR 2025. [[Paper](https://arxiv.org/abs/2405.18561)]
 
 2.  Web Vulnerability: **"Why Are Web AI Agents More Vulnerable Than Standalone LLMs? A Security Analysis"**.
-    *Jeffrey Yang Fan Chiang et al.* ICLR Workshop 2025.
+    *Jeffrey Yang Fan Chiang et al.* ICLR Workshop 2025. [[Paper](https://openreview.net/forum?id=4KoMbO2RJ9)]
 
 3.  Code Jailbreak: **"Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks"**.
     *Shoumik Saha et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.01359)]
@@ -460,7 +460,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Yuyang Zhang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2412.10807)]
 
 5.  InfoRM: **"InfoRM: Mitigating Reward Hacking in RLHF via Information-Theoretic Reward Modeling"**.
-    *Yuchun Miao et al.* 2024.
+    *Yuchun Miao et al.* 2024. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2024/file/f25d75fc760aec0a6174f9f5d9da59b8-Paper-Conference.pdf)]
 
 6.  Reward Shaping: **"Reward Shaping to Mitigate Reward Hacking in RLHF"**.
     *Jiayi Fu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2502.18770)]
@@ -652,7 +652,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Edoardo Debenedetti et al.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2406.13387)]
 
 2.  SafeArena: **"SafeArena: Evaluating the Safety of Autonomous Web Agents"**. 
-    *Ada Defne Tur et al.* ICML 2025.
+    *Ada Defne Tur et al.* ICML 2025. [[Paper](https://openreview.net/forum?id=7TrOBcxSvy)]
 
 3.  RAS-Eval: **"RAS-Eval: A Comprehensive Benchmark for Security Evaluation of LLM Agents in Real-World Environments"**. 
     *Yuchuan Fu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.15253)]
