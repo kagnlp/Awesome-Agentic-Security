@@ -26,20 +26,6 @@
 
 <hr/>
 
-If you find this survey or repository useful, please cite our work:
-
-```bibtex
-@article{shahriar2025agentic,
-  title={A Survey on Agentic Security: Applications, Threats and Defenses},
-  author={Shahriar, Asif and Rahman, Md Nafiu and Ahmed, Sadif and Sadeque, Farig and Parvez, Md Rizwan},
-  journal={arXiv preprint arXiv:2510.06445},
-  year={2025}
-}
-```
-## Contributing to this paper list
-
-Feel free to **open an issue/PR** or e-mail [asif.asr11@gmail.com](mailto:asif.asr11@gmail.com) if you find any missing areas, papers, or benchmarks. We will keep updating this list and survey.
-
 ## Survey Introduction
 
 The move from passive language models to autonomous LLM-agents marks a major shift in cybersecurity. These agents can act on their own. They can help with both attacking and defending systems, yet they also create new risks because they make decisions and interact with the world in more complex ways. This gives attackers more paths to mislead or control them.
@@ -725,3 +711,17 @@ Cybersecurity_Forensic)]
 <a href="https://github.com/kagnlp/Awesome-Agentic-Security/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=kagnlp/Awesome-Agentic-Security" />
 </a>
+
+If you find this survey or repository useful, please cite our work:
+
+```bibtex
+@article{shahriar2025agentic,
+  title={A Survey on Agentic Security: Applications, Threats and Defenses},
+  author={Shahriar, Asif and Rahman, Md Nafiu and Ahmed, Sadif and Sadeque, Farig and Parvez, Md Rizwan},
+  journal={arXiv preprint arXiv:2510.06445},
+  year={2025}
+}
+```
+## Contributing to this paper list
+
+Feel free to **open an issue/PR** or e-mail [asif.asr11@gmail.com](mailto:asif.asr11@gmail.com) if you find any missing areas, papers, or benchmarks. We will keep updating this list and survey.
