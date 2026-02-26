@@ -542,6 +542,10 @@ Cybersecurity_Forensic)]
     *Feiran Jia et al.* ACL 2025. [[Paper](https://aclanthology.org/2025.acl-long.1435/)]
 
 4.  CaMeL: **"Defeating Prompt Injections by Design"**.
+
+5.  SkillFortify: **"Formal Analysis and Supply Chain Security for Agentic AI Skills"**.
+    *Varun Pratap Bhardwaj.* Zenodo 2026. [[Paper](https://doi.org/10.5281/zenodo.18787663)][[Github](https://github.com/varun369/skillfortify)]
+
     *Edoardo Debenedetti et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.18813)][[Github](https://github.com/google-research/camel-prompt-injection)]
 
 5.  Polymorphic Prompt Assembling (PPA): **"To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt"**.
