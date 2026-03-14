@@ -668,8 +668,11 @@ Cybersecurity_Forensic)]
 10. τ-Bench: **"τ-Bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains"**. 
     *Shunyu Yao et al.* 2024. [[Paper](https://arxiv.org/abs/2406.12045)][[Github](https://github.com/sierra-research/tau-bench)]
 
-11. WebArena: **"WebArena: A Realistic Web Environment for Building Autonomous Agents"**. 
+11. WebArena: **"WebArena: A Realistic Web Environment for Building Autonomous Agents"**.
     *Shuyan Zhou et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2307.13854)][[Github](http://github.com/web-arena-x/webarena)]
+
+12. Ziran: **"Ziran: Open-Source Security Testing Framework for AI Agents"**.
+    *Leone Perdigão.* 2025. [[Blog](https://leoneperdigao.medium.com/your-ai-agent-has-a-backdoor-heres-how-i-found-it-1ad50124cacf)][[Github](https://github.com/taoq-ai/ziran)]
 
 ##### Defense Testing
 
