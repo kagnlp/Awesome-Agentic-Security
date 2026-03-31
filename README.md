@@ -120,6 +120,8 @@ This overview aims to support more research on agentic security. The goal is to 
 
 9.  Full Stack Safety: **"A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment"**.
     *Kun Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.15585)]
+
+10. AgentLeak: "AgentLeak: A Full-Stack Benchmark for Privacy Leakage in Multi-Agent LLM Systems". Faouzi El Yagoubi et al. arXiv 2025. [[Paper](https://arxiv.org/abs/2602.11510)] [[Github](https://github.com/Privatris/AgentLeak)]
     
 ## Papers
 
