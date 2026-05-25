@@ -91,6 +91,7 @@ This overview aims to support more research on agentic security. The goal is to 
           * [Benchmarking Platforms](#benchmarking-platforms)
           * [Defense Testing](#defense-testing)
 * [Adverserial Benchmarks](#adverserial-benchmarks)
+- [HOL Guard - Local-first runtime security for AI coding agents (Codex, Claude Code, Cursor, Gemini, OpenCode)](https://github.com/hashgraph-online/hol-guard)
 
 ## Related Surveys
 
