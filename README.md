@@ -769,46 +769,49 @@ This overview aims to support more research on agentic security. The goal is to 
 4.  CaMeL: **"Defeating Prompt Injections by Design"**.
     *Edoardo Debenedetti et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.18813)][[Github](https://github.com/google-research/camel-prompt-injection)]
 
-5.  Polymorphic Prompt Assembling (PPA): **"To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt"**.
+5.  SkillFortify: **"Formal Analysis and Supply Chain Security for Agentic AI Skills"**.
+    *Varun Pratap Bhardwaj.* Zenodo 2026. [[Paper](https://doi.org/10.5281/zenodo.18787663)][[Github](https://github.com/varun369/skillfortify)]
+
+6.  Polymorphic Prompt Assembling (PPA): **"To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt"**.
     *Zhilong Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.05739)][[Github](https://github.com/zhilongwang/LLMAgentProtector)]
 
-6.  MetaSecAlign: **"Meta SecAlign: A Secure Foundation LLM Against Prompt Injection Attacks"**.
+7.  MetaSecAlign: **"Meta SecAlign: A Secure Foundation LLM Against Prompt Injection Attacks"**.
     *Sizhe Chen et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.02735)]
 
-7.  Information-Flow-Control: **"Securing AI Agents with Information-Flow Control"**.
+8.  Information-Flow-Control: **"Securing AI Agents with Information-Flow Control"**.
     *Manuel Costa et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.23643)]
 
-8.  Instruction-Hierarchy: **"The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions"**.
+9.  Instruction-Hierarchy: **"The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions"**.
     *Eric Wallace et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2404.13208)]
 
-9.  MCPInspect: **"A First Look at the Security Issues in the Model Context Protocol Ecosystem"**.
+10. MCPInspect: **"A First Look at the Security Issues in the Model Context Protocol Ecosystem"**.
     *Xiaofan Li and Xing Gao.* DSN 2026. [[Paper](https://arxiv.org/abs/2510.16558)]
 
-10. ShieldAgent: **"ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning"**.
+11. ShieldAgent: **"ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning"**.
     *Zhaorun Chen et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.22738)]
 
-11. CloakHoneyTrap: **"Cloak, Honey, Trap: Proactive Defenses Against LLM Agents"**.
+12. CloakHoneyTrap: **"Cloak, Honey, Trap: Proactive Defenses Against LLM Agents"**.
     *Michael Ayzenshteyn et al.* USENIX Security 2025. [[Paper](https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf)]
 
-12. IPIGuard: **"IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents"**.
+13. IPIGuard: **"IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents"**.
     *Hengyu An et al.* EMNLP 2025. [[Paper](https://aclanthology.org/2025.emnlp-main.53.pdf)]
 
-13. CAGE4: **"Large Language Models are Autonomous Cyber Defenders"**.
+14. CAGE4: **"Large Language Models are Autonomous Cyber Defenders"**.
     *Sebastián R. Castro et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.04843)]
 
-14. TRISM: **"TRISM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-Based Agentic Multi-Agent Systems"**.
+15. TRISM: **"TRISM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-Based Agentic Multi-Agent Systems"**.
     *Shaina Raza et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.04133)]
 
-15. Trustworthy-Agentic: **"Trustworthy Agentic AI Systems: A Cross-Layer Review of Architectures, Threat Models, and Governance Strategies"**.
+16. Trustworthy-Agentic: **"Trustworthy Agentic AI Systems: A Cross-Layer Review of Architectures, Threat Models, and Governance Strategies"**.
     *Ibrahim Adabara et al.* F1000Research 2025. [[Paper](https://f1000research.com/articles/14-905)]
 
-16. ModelGuard: **"ModelGuard: Information-Theoretic Defense Against Model Extraction Attacks"**.
+17. ModelGuard: **"ModelGuard: Information-Theoretic Defense Against Model Extraction Attacks"**.
     *Minxue Tang et al.* USENIX Security 2024. [[Paper](https://www.usenix.org/conference/usenixsecurity24/presentation/tang)][[Github](https://github.com/Yoruko-Tang/ModelGuard)]
 
-17. Security-Of-AI-Agents: **"Security of AI Agents"**.
+18. Security-Of-AI-Agents: **"Security of AI Agents"**.
     *Yifeng He et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2406.08689)][[Github](https://github.com/SecurityLab-UCD/ai-agent-security)]
 
-18. Threat-Model: **"Securing Agentic AI: A Comprehensive Threat Model and Mitigation Framework for Generative AI Agents"**.
+19. Threat-Model: **"Securing Agentic AI: A Comprehensive Threat Model and Mitigation Framework for Generative AI Agents"**.
     *Vineeth Sai Narajala and Om Narayan.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.19956)]
 
 ##### Multi-Agent Security
