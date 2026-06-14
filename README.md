@@ -159,7 +159,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Víctor Mayoral-Vilches et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.06017)][[GIthub](https://github.com/aliasrobotics/cai)]
 
 9.  RapidPen: **"RapidPen: Fully Automated IP-to-Shell Penetration Testing with LLM-based Agents"**.
-    *Sho Nakatani.* arXiv 2026. [[Paper](https://arxiv.org/abs/2502.16730)]
+    *Sho Nakatani.* arXiv 2026. [[Paper](https://arxiv.org/abs/2502.16730)][[Zenodo](https://zenodo.org/records/14908250)]
 
 10. AutoPentester: **"AutoPentester: An LLM Agent-based Framework for Automated Pentesting"**.
     *Yasod Ginige et al.* TrustCom 2025. [[Paper](https://doi.org/10.1109/Trustcom66490.2025.00026)][[Github](https://github.com/YasodGinige/AutoPentester)]
@@ -227,7 +227,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Ruijie Meng et al.* NDSS 2024. [[Paper](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-fuzzing/)][[Github](https://github.com/ChatAFLndss/ChatAFL)]
 
 3.  FirmAgent: **"FirmAgent: Leveraging Fuzzing to Assist LLM Agents with IoT Firmware Vulnerability Discovery"**.
-    *Jiangan Ji et al.* NDSS 2026. [[Paper](https://www.ndss-symposium.org/ndss-paper/firmagent-leveraging-fuzzing-to-assist-llm-agents-with-iot-firmware-vulnerability-discovery/)]
+    *Jiangan Ji et al.* NDSS 2026. [[Paper](https://www.ndss-symposium.org/ndss-paper/firmagent-leveraging-fuzzing-to-assist-llm-agents-with-iot-firmware-vulnerability-discovery/)][[Github](https://github.com/vul337/FirmAgent)]
 
 4.  ChainFuzzer: **"ChainFuzzer: Greybox Fuzzing for Workflow-Level Multi-Tool Vulnerabilities in LLM Agents"**.
     *Jiangrong Wu et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2603.12614)]
@@ -263,7 +263,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Nancy Lau et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2603.02297)]
 
 15. SecRepoBench: **"SecRepoBench: Benchmarking Code Agents for Secure Code Completion in Real-World Repositories"**.
-    *Chihao Shen et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2504.21205)]
+    *Chihao Shen et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2504.21205)][[Github](https://secrepobench.github.io/)]
 
 16. SecVulEval: **"SecVulEval: Benchmarking LLMs for Real-World C/C++ Vulnerability Detection"**.
     *Md Basim Uddin Ahmed et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.19828)] [[GitHub](https://github.com/basimbd/SecVulEval)]
