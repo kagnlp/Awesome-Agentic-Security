@@ -1,4 +1,4 @@
-# Awesome Agentic Security Papers 📑
+# Awesome Agentic Security Papers
 
 <p align="center">
   <a href="https://arxiv.org/abs/2510.06445">
@@ -123,6 +123,9 @@ This overview aims to support more research on agentic security. The goal is to 
 9.  Full Stack Safety: **"A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment"**.
     *Kun Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.15585)]
 
+10. Agentic AI Security: **"Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges"**.
+    *Anshuman Chhabra et al.* IEEE Access 2026. [[Paper](https://doi.org/10.1109/ACCESS.2026.3675554)]
+
 ## Papers
 
 ### Applications
@@ -218,7 +221,7 @@ This overview aims to support more research on agentic security. The goal is to 
 ##### Automated Vulnerability Discovery & Fuzzing
 
 1.  Locus: **"Locus: Agentic Predicate Synthesis for Directed Fuzzing"**.
-    *Jie Zhu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.21302)]
+    *Jie Zhu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.21302)][[Github](https://github.com/jiezhuzzz/Locus)]
 
 2.  ChatAFL: **"Large Language Model Guided Protocol Fuzzing"**.
     *Ruijie Meng et al.* NDSS 2024. [[Paper](https://www.ndss-symposium.org/ndss-paper/large-language-model-guided-protocol-fuzzing/)][[Github](https://github.com/ChatAFLndss/ChatAFL)]
@@ -513,6 +516,15 @@ This overview aims to support more research on agentic security. The goal is to 
 11. Embodied-AI-Security: **"Towards Robust and Secure Embodied AI: A Survey on Vulnerabilities and Attacks"**.
     *Wenpeng Xing et al.* 2025. [[Paper](https://arxiv.org/abs/2502.13175)]
 
+12. Privacy-Preserving-Medical-Imaging: **"Privacy-Preserving AI for Encrypted Medical Imaging: A Framework for Secure Diagnosis and Learning"**.
+    *Abdullah Al Siam and Sadequzzaman Shohan.* arXiv 2025. [[Paper](https://arxiv.org/abs/2507.21060)]
+
+13. Agentic-AI-Healthcare: **"Agentic-AI Healthcare: Multilingual, Privacy-First Framework with MCP Agents"**.
+    *Mohammad A. Shehab.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.02325)]
+
+14. Autonomous-Driving-Perception: **"Enhancing LLM-based Autonomous Driving Agents to Mitigate Perception Attacks"**.
+    *Ruoyu Muller et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2409.14488)]
+
 ### Threats
 
 #### Attack Surface
@@ -567,8 +579,14 @@ This overview aims to support more research on agentic security. The goal is to 
 16. AgentHarm: **"AgentHarm: A Benchmar9k for Measuring Harmfulness of LLM Agents"**.
     *Maksym Andriushchenko et al.* ICLR 2025. [[Paper](https://arxiv.org/abs/2410.09024)][[Hugging Face](https://huggingface.co/datasets/ai-safety-institute/AgentHarm)]
 
-1. Adaptive Attacks: **"Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents"**.
+17. Adaptive Attacks: **"Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents"**.
     *Qiusi Zhan et al.* NAACL 2025. [[Paper](https://aclanthology.org/2025.findings-naacl.395/)][[Github](https://github.com/uiuc-kang-lab/AdaptiveAttackAgent)]
+
+18. Formalizing-PI: **"Formalizing and Benchmarking Prompt Injection Attacks and Defenses"**.
+    *Yupei Liu et al.* USENIX Security 2024. [[Paper](https://arxiv.org/abs/2310.12815)][[Github](https://github.com/liu00222/Open-Prompt-Injection)]
+
+19. Poisoning-Alignment-PI: **"Enhancing Prompt Injection Attacks to LLMs via Poisoning Alignment"**.
+    *Zedian Shao et al.* ACM AISec 2025. [[Paper](https://arxiv.org/abs/2410.14827)][[Github](https://github.com/Sadcardation/PoisonedAlign)]
 
 ##### Poisoning & Extraction Attacks
 
@@ -596,6 +614,12 @@ This overview aims to support more research on agentic security. The goal is to 
 8.  MALICE: **"Malice in Agentland: Down the Rabbit Hole of Backdoors in the AI Supply Chain"**.
     *Léo Boisvert et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.05159)]
 
+9.  RAG-Thief: **"RAG-Thief: Scalable Extraction of Private Data from Retrieval-Augmented Generation Applications with Agent-based Attacks"**.
+    *Changyue Jiang et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2411.14110)]
+
+10. Skill-Ecosystem-Poisoning: **"Supply-Chain Poisoning Attacks Against LLM Coding Agent Skill Ecosystems"**.
+    *Yubin Qu et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2604.03081)]
+
 ##### Jailbreak Attacks
 
 1.  LLMs are not Aligned Browser Agents: **"Aligned LLMs Are Not Aligned Browser Agents"**.
@@ -618,6 +642,18 @@ This overview aims to support more research on agentic security. The goal is to 
 
 7.  Robot Jailbreak: **"Jailbreaking LLM-Controlled Robots"**.
     *Alexander Robey et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2410.13691)][[Github](https://github.com/arobey1/robopair)]
+
+8.  Jailbroken: **"Jailbroken: How Does LLM Safety Training Fail?"**.
+    *Alexander Wei et al.* NeurIPS 2023. [[Paper](https://proceedings.neurips.cc/paper_files/paper/2023/hash/fd6613131889a4b656206c50a8bd7790-Abstract-Conference.html)]
+
+9.  GCG: **"Universal and Transferable Adversarial Attacks on Aligned Language Models"**.
+    *Andy Zou et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2307.15043)]
+
+10. AutoDAN: **"AutoDAN: Generating Stealthy Jailbreak Prompts on Aligned Large Language Models"**.
+    *Xiaogeng Liu et al.* ICLR 2024. [[Paper](https://openreview.net/forum?id=7Jwpw4qKkb)]
+
+11. Jailbreak-Survey: **"A Comprehensive Study of Jailbreak Attack versus Defense for Large Language Models"**.
+    *Zihao Xu et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2402.13457)]
 
 ##### Agent Manipulation Attacks
 
@@ -668,6 +704,9 @@ This overview aims to support more research on agentic security. The goal is to 
 4.  Reasoning-Style-Poisoning: **"Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer"**.
     *Xingfu Zhou and Pengfei Wang.* arXiv 2025. [[Paper](https://arxiv.org/abs/2512.14448)]
 
+5.  Skill-Inject: **"Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks"**.
+    *David Schmotz et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2602.20156)]
+
 ##### Red-Teaming Attacks
 
 1.  Red Teaming LMs: **"Red Teaming Language Models with Language Models"**.
@@ -677,7 +716,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Suyu Ge et al.* arXiv 2023. [[Paper](https://arxiv.org/abs/2311.07689)]
 
 3.  Comm Attacks: **"Red-Teaming LLM Multi-Agent Systems via Communication Attacks"**.
-    *Pengfei He et al.* ACL 2025. [[Paper](https://aclanthology.org/2025.findings-acl.349/)]
+    *Pengfei He et al.* ACL 2025. [[Paper](https://aclanthology.org/2025.findings-acl.349/)][[Github](https://github.com/PengfeiHePower/AiTM)]
 
 4.  AgentFuzz: **"Make Agent Defeat Agent: Automatic Detection of Taint-Style Vulnerabilities in LLM-Based Agents"**.
     *Fengyu Liu et al.* USENIX Security 2025. [[Paper](https://www.usenix.org/conference/usenixsecurity25/presentation/liu-fengyu)][[Code](https://zenodo.org/records/15590097)]
@@ -785,13 +824,13 @@ This overview aims to support more research on agentic security. The goal is to 
     *Xiaofan Li and Xing Gao.* DSN 2026. [[Paper](https://arxiv.org/abs/2510.16558)]
 
 11. ShieldAgent: **"ShieldAgent: Shielding Agents via Verifiable Safety Policy Reasoning"**.
-    *Zhaorun Chen et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.22738)]
+    *Zhaorun Chen et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.22738)][[Project](https://shieldagent-aiguard.github.io/)]
 
 12. CloakHoneyTrap: **"Cloak, Honey, Trap: Proactive Defenses Against LLM Agents"**.
-    *Michael Ayzenshteyn et al.* USENIX Security 2025. [[Paper](https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf)]
+    *Michael Ayzenshteyn et al.* USENIX Security 2025. [[Paper](https://www.usenix.org/system/files/usenixsecurity25-ayzenshteyn.pdf)][[Github](https://github.com/Daniel-Ayz/CHeaT)]
 
 13. IPIGuard: **"IPIGuard: A Novel Tool Dependency Graph-Based Defense Against Indirect Prompt Injection in LLM Agents"**.
-    *Hengyu An et al.* EMNLP 2025. [[Paper](https://aclanthology.org/2025.emnlp-main.53.pdf)]
+    *Hengyu An et al.* EMNLP 2025. [[Paper](https://aclanthology.org/2025.emnlp-main.53.pdf)][[Github](https://github.com/Greysahy/ipiguard)]
 
 14. CAGE4: **"Large Language Models are Autonomous Cyber Defenders"**.
     *Sebastián R. Castro et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.04843)]
@@ -810,6 +849,15 @@ This overview aims to support more research on agentic security. The goal is to 
 
 19. Threat-Model: **"Securing Agentic AI: A Comprehensive Threat Model and Mitigation Framework for Generative AI Agents"**.
     *Vineeth Sai Narajala and Om Narayan.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.19956)]
+
+20. CaMeL-Foundations: **"Systems Security Foundations for Agentic Computing"**.
+    *Mihai Christodorescu et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2512.01295)]
+
+21. Spotlighting: **"Defending Against Indirect Prompt Injection Attacks With Spotlighting"**.
+    *Keegan Hines et al.* CAMLIS 2024. [[Paper](https://arxiv.org/abs/2403.14720)]
+
+22. StruQ: **"StruQ: Defending Against Prompt Injection with Structured Queries"**.
+    *Sizhe Chen et al.* USENIX Security 2025. [[Paper](https://arxiv.org/abs/2402.06363)][[Github](https://github.com/Sizhe-Chen/StruQ)]
 
 ##### Multi-Agent Security
 
@@ -831,10 +879,16 @@ This overview aims to support more research on agentic security. The goal is to 
 6.  Cross-Domain-Challenges: **"Seven Security Challenges That Must Be Solved in Cross-Domain Multi-Agent LLM Systems"**.
     *Ronny Ko et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.23847)]
 
+7.  Secret-Collusion: **"Secret Collusion among AI Agents: Multi-Agent Deception via Steganography"**.
+    *Sumeet Ramesh Motwani et al.* NeurIPS 2024. [[Paper](https://arxiv.org/abs/2402.07510)]
+
+8.  Certifiably-Robust-RAG: **"Certifiably Robust RAG against Retrieval Corruption"**.
+    *Chong Xiang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2405.15556)][[Github](https://github.com/inspire-group/RobustRAG)]
+
 ##### Runtime Protection
 
 1.  R^2-Guard: **"R^2-Guard: Robust Reasoning Enabled LLM Guardrail via Knowledge-Enhanced Logical Reasoning"**.
-    *Mintong Kang and Bo Li.* ICLR 2025. [[Paper](https://openreview.net/forum?id=CkgKSqZbuC)]
+    *Mintong Kang and Bo Li.* ICLR 2025. [[Paper](https://openreview.net/forum?id=CkgKSqZbuC)][[Github](https://github.com/kangmintong/R-2-Guard)]
 
 2.  Refining-Guardrails: **"Refining Input Guardrails: Enhancing LLM-as-a-Judge Efficiency Through Chain-of-Thought Fine-Tuning and Alignment"**.
     *Melissa Kazemi Rad et al.* AAAI Workshop 2025. [[Paper](https://openreview.net/forum?id=UNPzbCKovl)]
@@ -867,7 +921,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Zhuowen Yuan et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2604.04426)]
 
 12. MCPGuard: **"MCP-Guard: A Multi-Stage Defense-in-Depth Framework for Securing Model Context Protocol in Agentic AI"**.
-    *Wenpeng Xing et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.10991)]
+    *Wenpeng Xing et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2508.10991)][[Github](https://github.com/GenTelLab/MCP-Guard)]
 
 13. AgentStepper: **"AgentStepper: Interactive Debugging of Software Development Agents"**.
     *Robert Hutter and Michael Pradel.* arXiv 2026. [[Paper](https://arxiv.org/abs/2602.06593)] [[GitHub](https://github.com/sola-st/AgentStepper)]
@@ -877,6 +931,9 @@ This overview aims to support more research on agentic security. The goal is to 
 
 15. Bedrock-Security: **"Securing Amazon Bedrock Agents: Safeguarding Against Indirect Prompt Injections"**.
     *Amazon Web Services.* AWS White Paper 2024. [[Link](https://aws.amazon.com/blogs/machine-learning/securing-amazon-bedrock-agents-a-guide-to-safeguarding-against-indirect-prompt-injections/)]
+
+16. AgentGuard-RV: **"AgentGuard: Runtime Verification of AI Agents"**.
+    *Roham Koohestani.* ASE 2025 Workshop (AgenticSE). [[Paper](https://arxiv.org/abs/2509.23864)]
 
 ##### Security Operations
 
@@ -890,7 +947,7 @@ This overview aims to support more research on agentic security. The goal is to 
     *Jinyao Guo et al.* ICML 2025. [[Paper](https://openreview.net/forum?id=TXcifVbFpG)][[Github](https://github.com/PurCL/RepoAudit)]
 
 4.  Knighter: **"Knighter: Transforming Static Analysis with LLM-Synthesized Checkers"**.
-    *Chenyuan Yang et al.* SOSP 2025. [[Paper](https://dl.acm.org/doi/10.1145/3731569.3764827)]
+    *Chenyuan Yang et al.* SOSP 2025. [[Paper](https://dl.acm.org/doi/10.1145/3731569.3764827)][[Github](https://github.com/ise-uiuc/KNighter)]
 
 5.  VeriPlan: **"VeriPlan: Integrating Formal Verification and LLMs into End-User Planning"**.
     *Christine P. Lee et al.* CHI 2025. [[Paper](https://dl.acm.org/doi/10.1145/3706598.3714113)]
@@ -1016,6 +1073,9 @@ This overview aims to support more research on agentic security. The goal is to 
 
 2.  PrivacyChecker: **"Privacy in Action: Towards Realistic Privacy Mitigation and Evaluation for LLM-Powered Agents"**.
     *Shouju Wang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2509.17488)][[Github](https://github.com/microsoft/ACV/tree/main/misc/PrivacyInAction)]
+
+3.  Privacy-Aware-RAG: **"Privacy-Aware RAG: Secure and Isolated Knowledge Retrieval"**.
+    *Pengcheng Zhou et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.15548)]
 
 ---
 
@@ -1176,3 +1236,4 @@ If you find this survey or repository useful, please cite our work:
   journal={arXiv preprint arXiv:2510.06445},
   year={2025}
 }
+```
