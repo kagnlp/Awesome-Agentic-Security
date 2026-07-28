@@ -1031,6 +1031,9 @@ This overview aims to support more research on agentic security. The goal is to 
 19. Ziran: **"Ziran: Open-Source Security Testing Framework for AI Agents"**.
     *Leone Perdigão.* 2025. [[Blog](https://leoneperdigao.medium.com/your-ai-agent-has-a-backdoor-heres-how-i-found-it-1ad50124cacf)][[Github](https://github.com/taoq-ai/ziran)]
 
+20. ClawBench: **"ClawBench: Can AI Agents Complete Everyday Online Tasks?"** *(complementary non-adversarial browser-agent evaluation; not a security benchmark)*.
+    *Yuxuan Zhang et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2604.08523)][[GitHub](https://github.com/TIGER-AI-Lab/ClawBench)][[Project](https://claw-bench.com/)][[Dataset](https://huggingface.co/datasets/NAIL-Group/ClawBench)]
+
 ##### Defense Testing
 
 1.  Adaptive-Attacks: **"Adaptive Attacks Break Defenses Against Indirect Prompt Injection Attacks on LLM Agents"**.
