@@ -862,6 +862,9 @@ This overview aims to support more research on agentic security. The goal is to 
 23. Bounded Agents: **"Bounded Agents: Delegation Security for Multi-Agent AI Systems"**.
     *Xabier Muruaga.* arXiv 2026. [[Paper](https://arxiv.org/abs/2608.15888)][[Github](https://github.com/xmuruaga/bounded-agents)]
 
+24. LeaseGuard: **"LeaseGuard: Incumbent-Preserving Admission Control for Privileged LLM Agents"**.
+    *Junru Zhu et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2609.24077)]
+
 ##### Multi-Agent Security
 
 1.  D-CIPHER: **"D-CIPHER: Dynamic Collaborative Intelligent Multi-Agent System with Planner and Heterogeneous Executors for Offensive Security"**.
