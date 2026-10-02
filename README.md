@@ -218,6 +218,9 @@ This overview aims to support more research on agentic security. The goal is to 
 28. Cyber-Zero: **"Cyber-Zero: Training Cybersecurity Agents without Runtime"**.
     *Terry Yue Zhuo et al.* ICLR 2026. [[Paper](https://openreview.net/forum?id=1gRTeAik4G)][[Github](https://github.com/amazon-science/Cyber-Zero)]
 
+29. Darkmoon: **"Darkmoon: Open-Source Autonomous AI Penetration Testing Platform"**.
+    *ASC-IT.* 2026. [[Github](https://github.com/ASCIT31/Dark-Moon)]
+
 ##### Automated Vulnerability Discovery & Fuzzing
 
 1.  Locus: **"Locus: Agentic Predicate Synthesis for Directed Fuzzing"**.
