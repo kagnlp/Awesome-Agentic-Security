@@ -35,7 +35,14 @@
 
 ## Contributing to this paper list
 
-Feel free to **open an issue/PR** or e-mail [asif.asr11@gmail.com](mailto:asif.asr11@gmail.com) if you find any missing areas, papers, or benchmarks. We will keep updating this list and survey.
+Feel free to **open an issue/PR** or e-mail [asif.asr11@gmail.com](mailto:asif.asr11@gmail.com) if you find any missing areas, papers, or benchmarks. We will keep updating this list.
+
+When opening a PR, add the paper to the most relevant subsection under [Papers](#papers), append it to the end of that list, and mark the short name with **†**, since new papers are not part of the survey's analyzed corpus:
+
+```markdown
+N.  ShortName†: **"Full Paper Title"**.
+    *First Author et al.* Venue Year. [[Paper](https://link-to-paper)][[GitHub](https://link-to-code)]
+```
 
 ## Survey Introduction
 
@@ -143,6 +150,8 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
     *Anshuman Chhabra et al.* IEEE Access 2026. [[Paper](https://doi.org/10.1109/ACCESS.2026.3675554)]
 
 ## Papers
+
+> Papers follow the survey's taxonomy. Entries marked **†** are not part of the survey's 274-paper corpus (for example, papers contributed after publication), so they are not reflected in the [Analysis](#analysis).
 
 ### Applications
 
@@ -362,7 +371,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 11. CTI-REALM: **"CTI-REALM: Benchmark to Evaluate Agent Performance on Security Detection Rule Generation Capabilities"**.
     *Arjun Chakraborty et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2603.13517)]
 
-12. Log-Analysis-Survey: **"Automated Threat Detection and Response Using LLM Agents"**.
+12. Log-Analysis-Survey†: **"Automated Threat Detection and Response Using LLM Agents"**.
     *Ramasankar Molleti et al.* World Journal of Advanced Research and Reviews 2024. [[Paper](https://wjarr.com/sites/default/files/WJARR-2024-3329.pdf)]
 
 ##### Intelligent Threat Hunting
@@ -410,7 +419,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 1.  RepairAgent: **"RepairAgent: An Autonomous, LLM-Based Agent for Program Repair"**.
     *Islem Bouzenia et al.* ICSE 2025. [[Paper](https://dl.acm.org/doi/10.1109/ICSE55347.2025.00157)][[Github](https://github.com/sola-st/RepairAgent)]
 
-2.  Gemini-Patching: **"AI-Powered Patching: The Future of Automated Vulnerability Fixes"**.
+2.  Gemini-Patching†: **"AI-Powered Patching: The Future of Automated Vulnerability Fixes"**.
     *Jan Keller and Jan Nowakowski.* Technical Report 2024. [[Link](https://research.google/pubs/ai-powered-patching-the-future-of-automated-vulnerability-fixes/)]
 
 3.  IaC-Remediation: **"LLM Agentic Workflow for Automated Vulnerability Detection and Remediation in Infrastructure-as-Code"**.
@@ -809,7 +818,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 19. HackWorld: **"HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities"**.
     *Xiaoxue Ren et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.12200)][[GitHub](https://github.com/GUI-Agent/HackWorld)]
 
-20. AgentLeak: **"AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems"**.
+20. AgentLeak†: **"AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems"**.
     *Faouzi El Yagoubi et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2602.11510)][[GitHub](https://github.com/Privatris/AgentLeak)]
 
 ##### Execution Environments
@@ -876,10 +885,10 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 3.  Task Shield: **"The Task Shield: Enforcing Task Alignment to Defend Against Indirect Prompt Injection in LLM Agents"**.
     *Feiran Jia et al.* ACL 2025. [[Paper](https://aclanthology.org/2025.acl-long.1435/)]
 
-4.  CaMeL: **"Defeating Prompt Injections by Design"**.
+4.  CaMeL†: **"Defeating Prompt Injections by Design"**.
     *Edoardo Debenedetti et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2503.18813)][[Github](https://github.com/google-research/camel-prompt-injection)]
 
-5.  SkillFortify: **"Formal Analysis and Supply Chain Security for Agentic AI Skills"**.
+5.  SkillFortify†: **"Formal Analysis and Supply Chain Security for Agentic AI Skills"**.
     *Varun Pratap Bhardwaj.* Zenodo 2026. [[Paper](https://doi.org/10.5281/zenodo.18787663)][[Github](https://github.com/varun369/skillfortify)]
 
 6.  Polymorphic Prompt: **"To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt"**.
@@ -909,10 +918,10 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 14. CAGE4: **"Large Language Models are Autonomous Cyber Defenders"**.
     *Sebastián R. Castro et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.04843)]
 
-15. TRISM: **"TRISM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-Based Agentic Multi-Agent Systems"**.
+15. TRISM†: **"TRISM for Agentic AI: A Review of Trust, Risk, and Security Management in LLM-Based Agentic Multi-Agent Systems"**.
     *Shaina Raza et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2506.04133)]
 
-16. Trustworthy-Agentic: **"Trustworthy Agentic AI Systems: A Cross-Layer Review of Architectures, Threat Models, and Governance Strategies"**.
+16. Trustworthy-Agentic†: **"Trustworthy Agentic AI Systems: A Cross-Layer Review of Architectures, Threat Models, and Governance Strategies"**.
     *Ibrahim Adabara et al.* F1000Research 2025. [[Paper](https://f1000research.com/articles/14-905)]
 
 17. ModelGuard: **"ModelGuard: Information-Theoretic Defense Against Model Extraction Attacks"**.
@@ -933,7 +942,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 22. StruQ: **"StruQ: Defending Against Prompt Injection with Structured Queries"**.
     *Sizhe Chen et al.* USENIX Security 2025. [[Paper](https://arxiv.org/abs/2402.06363)][[Github](https://github.com/Sizhe-Chen/StruQ)]
 
-23. Bounded Agents: **"Bounded Agents: Delegation Security for Multi-Agent AI Systems"**.
+23. Bounded Agents†: **"Bounded Agents: Delegation Security for Multi-Agent AI Systems"**.
     *Xabier Muruaga.* arXiv 2026. [[Paper](https://arxiv.org/abs/2608.15888)][[Github](https://github.com/xmuruaga/bounded-agents)]
 
 24. AgentDojo: **"AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents"**.
@@ -962,7 +971,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 5.  Challenges-Multi-Agent: **"LLM Multi-Agent Systems: Challenges and Open Problems"**.
     *Shanshan Han et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2402.03578)]
 
-6.  Cross-Domain-Challenges: **"Seven Security Challenges That Must Be Solved in Cross-Domain Multi-Agent LLM Systems"**.
+6.  Cross-Domain-Challenges†: **"Seven Security Challenges That Must Be Solved in Cross-Domain Multi-Agent LLM Systems"**.
     *Ronny Ko et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.23847)]
 
 7.  Secret-Collusion: **"Secret Collusion among AI Agents: Multi-Agent Deception via Steganography"**.
@@ -991,7 +1000,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 4.  SentinelAgent: **"SentinelAgent: Graph-Based Anomaly Detection in Multi-Agent Systems"**.
     *Xu He et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2505.24201)]
 
-5.  Confront-Insider: **"Confront Insider Threat: Precise Anomaly Detection in Behavior Logs Based on LLM Fine-Tuning"**.
+5.  Confront-Insider†: **"Confront Insider Threat: Precise Anomaly Detection in Behavior Logs Based on LLM Fine-Tuning"**.
     *Shuang Song et al.* COLING 2025. [[Paper](https://aclanthology.org/2025.coling-main.574/)]
 
 6.  GuardAgent: **"GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning"**.
@@ -1021,7 +1030,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 14. AgentSentry: **"AgentSentry: Mitigating Indirect Prompt Injection via Temporal Causal Diagnostics"**.
     *Tian Zhang et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2602.22724)]
 
-15. Bedrock-Security: **"Securing Amazon Bedrock Agents: Safeguarding Against Indirect Prompt Injections"**.
+15. Bedrock-Security†: **"Securing Amazon Bedrock Agents: Safeguarding Against Indirect Prompt Injections"**.
     *Amazon Web Services.* AWS White Paper 2024. [[Link](https://aws.amazon.com/blogs/machine-learning/securing-amazon-bedrock-agents-a-guide-to-safeguarding-against-indirect-prompt-injections/)]
 
 16. AgentGuard-RV: **"AgentGuard: Runtime Verification of AI Agents"**.
@@ -1141,7 +1150,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 10. CyberSecEval2: **"CyberSecEval 2: A Wide-Ranging Cybersecurity Risk Assessment for LLMs"**.
     *Manish Bhatt et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2404.13161)]
 
-11. aiXamine: **"aiXamine: Simplified LLM Safety and Security"**.
+11. aiXamine†: **"aiXamine: Simplified LLM Safety and Security"**.
     *Fatih Deniz et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2504.14985)]
 
 12. TurkingBench: **"TurkingBench: A Challenge Benchmark for Web Agents"**.
@@ -1162,7 +1171,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 17. Sleeper-Agents: **"Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training"**.
     *Evan Hubinger et al.* arXiv 2024. [[Paper](https://arxiv.org/abs/2401.05566)]
 
-18. Ziran: **"Ziran: Open-Source Security Testing Framework for AI Agents"**.
+18. Ziran†: **"Ziran: Open-Source Security Testing Framework for AI Agents"**.
     *Leone Perdigão.* 2025. [[Blog](https://leoneperdigao.medium.com/your-ai-agent-has-a-backdoor-heres-how-i-found-it-1ad50124cacf)][[Github](https://github.com/taoq-ai/ziran)]
 
 19. CVE-Bench (Web): **"CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities"**.
@@ -1280,6 +1289,8 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 ---
 
 ## Analysis
+
+> This section summarizes the analysis published in the TMLR version of the survey. It is a fixed snapshot of the 274 papers coded for that version. The paper list above keeps growing, but entries marked **†** are not included in these numbers and figures.
 
 ### Corpus Overview
 
