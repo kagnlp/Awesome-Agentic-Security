@@ -151,7 +151,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 
 ## Papers
 
-> Papers follow the survey's taxonomy. Entries marked **†** are not part of the survey's 274-paper corpus (for example, papers contributed after publication), so they are not reflected in the [Analysis](#analysis).
+> Papers follow the survey's taxonomy. Entries marked **†** are not part of the survey's 274-paper corpus (for example, papers contributed after publication), so they are not reflected in the [Analysis](#analysis). The survey focuses on software agents; embodied and physical-world agents (e.g., robots, vision-language-action policies) are covered only through a few entries under [Domain-Specific Frameworks](#domain-specific-frameworks).
 
 ### Applications
 
@@ -1288,6 +1288,9 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 
 16. Embodied-AI-Security: **"Towards Robust and Secure Embodied AI: A Survey on Vulnerabilities and Attacks"**.
     *Wenpeng Xing et al.* 2025. [[Paper](https://arxiv.org/abs/2502.13175)]
+
+17. Embodied-AI-Safety†: **"Safety in Embodied AI: A Survey of Risks, Attacks, and Defenses"**.
+    *Xiao Li et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2605.02900)]
 
 ---
 
