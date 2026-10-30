@@ -954,6 +954,9 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 26. Threshold-ECDSA: **"An Efficient Multiparty Threshold ECDSA Protocol against Malicious Adversaries for Blockchain-Based LLMs"**.
     *Jingyi Wang et al.* IET Information Security 2024. [[Paper](https://doi.org/10.1049/2024/2252865)]
 
+27. LeaseGuard†: **"LeaseGuard: Incumbent-Preserving Admission Control for Privileged LLM Agents"**.
+    *Junru Zhu et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2609.24077)]
+
 ##### Multi-Agent Security
 
 1.  D-CIPHER: **"D-CIPHER: Dynamic Collaborative Intelligent Multi-Agent System with Planner and Heterogeneous Executors for Offensive Security"**.
