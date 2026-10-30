@@ -809,6 +809,9 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 19. HackWorld: **"HackWorld: Evaluating Computer-Use Agents on Exploiting Web Application Vulnerabilities"**.
     *Xiaoxue Ren et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.12200)][[GitHub](https://github.com/GUI-Agent/HackWorld)]
 
+20. AgentLeak: **"AgentLeak: A Benchmark for Internal-Channel Privacy Leakage in Multi-Agent LLM Systems"**.
+    *Faouzi El Yagoubi et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2602.11510)][[GitHub](https://github.com/Privatris/AgentLeak)]
+
 ##### Execution Environments
 
 1.  CVE-Bench (Web): **"CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities"**.
