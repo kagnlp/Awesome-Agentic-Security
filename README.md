@@ -1296,7 +1296,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 
 ## Analysis
 
-> This section summarizes the analysis published in the TMLR version of the survey. It is a fixed snapshot of the 274 papers coded for that version. The paper list above keeps growing, but entries marked **†** are not included in these numbers and figures.
+> This section summarizes the analysis published in the TMLR version of the survey. It is a fixed snapshot of the 274 papers coded for that version. The paper list above keeps growing, but entries marked **†** are not included in these numbers and figures. The coded corpus behind this analysis is available in [data/survey_corpus_extended.csv](data/survey_corpus_extended.csv).
 
 ### Corpus Overview
 
