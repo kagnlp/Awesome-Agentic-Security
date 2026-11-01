@@ -1465,12 +1465,6 @@ Across 272 papers, text dominates (98.2%), followed by code (58.1%), logs (26.8%
 
 ---
 
-## Contributors
-
-<a href="https://github.com/kagnlp/Awesome-Agentic-Security/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=kagnlp/Awesome-Agentic-Security" />
-</a>
-
 If you find this survey or repository useful, please cite our work:
 
 ```bibtex
