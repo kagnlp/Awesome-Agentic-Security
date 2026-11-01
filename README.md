@@ -873,6 +873,9 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 10. CoT-Hijacking: **"Chain-of-Thought Hijacking"**.
     *Jianli Zhao et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2510.26418)]
 
+11. Why-Agents-Compromise†: **"Why Agents Compromise Safety Under Pressure"**.
+    *Hengle Jiang and Ke Tang.* Findings of ACL 2026. [[Paper](https://aclanthology.org/2026.findings-acl.810/)]
+
 ### Defenses
 
 #### Defense & Operations
