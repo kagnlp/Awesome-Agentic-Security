@@ -650,7 +650,7 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 11. AgentHarm: **"AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents"**.
     *Maksym Andriushchenko et al.* ICLR 2025. [[Paper](https://arxiv.org/abs/2410.09024)][[Hugging Face](https://huggingface.co/datasets/ai-safety-institute/AgentHarm)]
 
-12. Magic Words: **"Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models"**.
+12. Magic Words†: **"Jailbreaking LLMs' Safeguard with Universal Magic Words for Text Embedding Models"**.
     *Haoyu Liang et al.* arXiv 2025. [[Paper](https://arxiv.org/abs/2501.18280)]
 
 ##### Agent Manipulation Attacks
