@@ -1054,6 +1054,9 @@ Throughout the survey, an end-to-end agentic operation is modeled as an eight-st
 18. DynamicAttention: **"Improving the Robustness of Transformer-based Large Language Models with Dynamic Attention"**.
     *Lujia Shen et al.* NDSS 2024. [[Paper](https://www.ndss-symposium.org/ndss-paper/improving-the-robustness-of-transformer-based-large-language-models-with-dynamic-attention/)]
 
+19. LEASH†: **"LEASH: Stay Safe in Agentic Robotics"**.
+    *Qinfeng Zhu et al.* arXiv 2026. [[Paper](https://arxiv.org/abs/2611.14115)][[Github](https://github.com/zhuqinfeng1999/LEASH)]
+
 ##### Security Operations
 
 1.  IRIS: **"IRIS: LLM-Assisted Static Analysis for Detecting Security Vulnerabilities"**.
